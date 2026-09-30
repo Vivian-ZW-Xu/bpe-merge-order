@@ -1,0 +1,808 @@
+{
+  "experiment": "v2 data-revised exploratory paired NLL and prompt-length analysis",
+  "status": "validated",
+  "source_directory": "/Users/vivian_hsu/Desktop/Capstone/bpe-merge-order/experiments/sentence_data_revision_v2",
+  "source_files_before_and_after_identical": true,
+  "source_files": {
+    "manifest_holdout_2021.json": {
+      "bytes": 622227,
+      "sha256": "761a8dd4c1b06902b24b1d4d84e02de3ec06b346db9d6b5903d45cbaa4b7e9f5"
+    },
+    "manifest_pilot_2020.json": {
+      "bytes": 108140,
+      "sha256": "2ca9fd9339c0c7d5e381d01068b3028f3f6613392d43c9821f2e1e6d70e089ed"
+    },
+    "results_holdout_2021.json": {
+      "bytes": 4540502,
+      "sha256": "f935576aefe6a8579a05639afed39b07260c3ff38983bf620e968bdd65cdd675"
+    },
+    "results_pilot_2020.json": {
+      "bytes": 885927,
+      "sha256": "fe3594478ac8e638cf4e084c12eaed72214244f4cec8516306971989c1aa8c89"
+    },
+    "data_policy.md": {
+      "bytes": 6390,
+      "sha256": "5e4df6cf24d3504ea1b44208611a662991fb13c0def26dcbb86c245463e088c1"
+    },
+    "analysis.json": {
+      "bytes": 8439,
+      "sha256": "4c241604f8e6c99c673f6e399af06b02fc1005b7957cccc92134f9f71a28290c"
+    },
+    "preflight.json": {
+      "bytes": 5057819,
+      "sha256": "769911d5f77ad51e74332dd5c054f13acbaffd9758380bb107c4e66d711a3ede"
+    },
+    "README.md": {
+      "bytes": 6580,
+      "sha256": "1cc6a2a3c08351de20c1772532286e60362e689ac7491f845ccfa39b8509f2ff"
+    }
+  },
+  "validation": {
+    "checks": [
+      "file and reference hashes",
+      "batch identity and ordered unique PMCIDs",
+      "locked first five/sixth text",
+      "rendered chat",
+      "shared target IDs and count",
+      "four prompt ID sequences and counts",
+      "prompt special IDs",
+      "per-token NLL count, finite nonnegative values, sum and mean",
+      "existing analysis means and D-lower counts"
+    ],
+    "papers": 132,
+    "scores": 528
+  },
+  "method": {
+    "unit": "paper; each condition first averaged over official A target IDs",
+    "difference": "D minus E, B or A; negative favors D",
+    "quantiles": "Hyndman-Fan type 7: linearly interpolate sorted values at (n-1)*p",
+    "bootstrap": {
+      "unit": "paper",
+      "sampling": "with replacement, n draws per replicate",
+      "statistic": "arithmetic mean of paired paper differences",
+      "replicates": 20000,
+      "seed": 20260930,
+      "rng": "Python random.Random, one stream in batch/comparison order",
+      "interval": "2.5th and 97.5th percentiles, type 7"
+    },
+    "sign_test": "two-sided exact Binomial(n_non_tied, 0.5); ties excluded",
+    "spearman": "Pearson correlation of average ranks for exact ties",
+    "length_difference": "D prompt token count minus comparison prompt token count",
+    "length_ratio": "D prompt token count divided by comparison prompt token count",
+    "near_length": "ratio between 0.95 and 1.05 inclusive",
+    "leave_one_out": "mean paired difference after removing each paper once"
+  },
+  "limitations": [
+    "observational, selected Europe PMC samples",
+    "2021 and pilot analyzed separately",
+    "bootstrap and sign tests are exploratory conditional on sample selection",
+    "length correlation cannot isolate merge rules from induced length change",
+    "shared official A target ID sequence is not each condition's natural tokenization",
+    "not an open-ended generation quality metric or MAUVE"
+  ],
+  "batches": {
+    "holdout_2021": {
+      "paper_count": 112,
+      "comparisons": {
+        "D_minus_E": {
+          "distribution": {
+            "n": 112,
+            "mean": -0.16551585213651207,
+            "median": -0.15267142353886443,
+            "q1_type7": -0.24630202352657166,
+            "q3_type7": -0.06743757548381718,
+            "min": -0.7331749298609789,
+            "max": 0.1604676869594419
+          },
+          "D_lower": 101,
+          "D_higher": 11,
+          "equal": 0,
+          "bootstrap_95_percentile": [
+            -0.1937531322731121,
+            -0.13863320502366885
+          ],
+          "exact_two_sided_sign_p": 2.262519224355612e-19,
+          "leave_one_out_mean_range": [
+            -0.16845264077701616,
+            -0.1604018063912466
+          ],
+          "matches_v2_analysis_mean": true,
+          "most_improved_5": [
+            {
+              "pmcid": "PMC7873935",
+              "difference": -0.7331749298609789,
+              "target_token_count": 19,
+              "prompt_token_counts": {
+                "A": 188,
+                "B": 427,
+                "D": 218,
+                "E": 405
+              }
+            },
+            {
+              "pmcid": "PMC9338743",
+              "difference": -0.5278148969205527,
+              "target_token_count": 13,
+              "prompt_token_counts": {
+                "A": 188,
+                "B": 438,
+                "D": 211,
+                "E": 447
+              }
+            },
+            {
+              "pmcid": "PMC8205412",
+              "difference": -0.5121975517408415,
+              "target_token_count": 22,
+              "prompt_token_counts": {
+                "A": 214,
+                "B": 496,
+                "D": 267,
+                "E": 520
+              }
+            },
+            {
+              "pmcid": "PMC8550493",
+              "difference": -0.45104418788778955,
+              "target_token_count": 27,
+              "prompt_token_counts": {
+                "A": 202,
+                "B": 489,
+                "D": 244,
+                "E": 482
+              }
+            },
+            {
+              "pmcid": "PMC8524725",
+              "difference": -0.42034006544417934,
+              "target_token_count": 24,
+              "prompt_token_counts": {
+                "A": 282,
+                "B": 554,
+                "D": 305,
+                "E": 525
+              }
+            }
+          ],
+          "most_worsened_5": [
+            {
+              "pmcid": "PMC7902880",
+              "difference": 0.1604676869594419,
+              "target_token_count": 18,
+              "prompt_token_counts": {
+                "A": 305,
+                "B": 633,
+                "D": 353,
+                "E": 651
+              }
+            },
+            {
+              "pmcid": "PMC8851128",
+              "difference": 0.10191913489917548,
+              "target_token_count": 35,
+              "prompt_token_counts": {
+                "A": 190,
+                "B": 447,
+                "D": 233,
+                "E": 438
+              }
+            },
+            {
+              "pmcid": "PMC10390303",
+              "difference": 0.1010861911788763,
+              "target_token_count": 21,
+              "prompt_token_counts": {
+                "A": 253,
+                "B": 588,
+                "D": 303,
+                "E": 570
+              }
+            },
+            {
+              "pmcid": "PMC8575360",
+              "difference": 0.09839188744219163,
+              "target_token_count": 29,
+              "prompt_token_counts": {
+                "A": 201,
+                "B": 438,
+                "D": 220,
+                "E": 422
+              }
+            },
+            {
+              "pmcid": "PMC8464200",
+              "difference": 0.07905436112178865,
+              "target_token_count": 21,
+              "prompt_token_counts": {
+                "A": 250,
+                "B": 527,
+                "D": 286,
+                "E": 504
+              }
+            }
+          ]
+        },
+        "D_minus_B": {
+          "distribution": {
+            "n": 112,
+            "mean": -0.16097930620001777,
+            "median": -0.1557128336952589,
+            "q1_type7": -0.24153704130731057,
+            "q3_type7": -0.05221564634595521,
+            "min": -0.6191808853129093,
+            "max": 0.1297303722794254
+          },
+          "D_lower": 100,
+          "D_higher": 12,
+          "equal": 0,
+          "bootstrap_95_percentile": [
+            -0.1886924558466239,
+            -0.13335470911916705
+          ],
+          "exact_two_sided_sign_p": 1.9275817215653924e-18,
+          "leave_one_out_mean_range": [
+            -0.16359831231244518,
+            -0.15685136404584757
+          ],
+          "matches_v2_analysis_mean": true,
+          "most_improved_5": [
+            {
+              "pmcid": "PMC8205412",
+              "difference": -0.6191808853129093,
+              "target_token_count": 22,
+              "prompt_token_counts": {
+                "A": 214,
+                "B": 496,
+                "D": 267,
+                "E": 520
+              }
+            },
+            {
+              "pmcid": "PMC8656164",
+              "difference": -0.5000905448105186,
+              "target_token_count": 18,
+              "prompt_token_counts": {
+                "A": 429,
+                "B": 770,
+                "D": 484,
+                "E": 764
+              }
+            },
+            {
+              "pmcid": "PMC8607302",
+              "difference": -0.4747591347992737,
+              "target_token_count": 40,
+              "prompt_token_counts": {
+                "A": 261,
+                "B": 637,
+                "D": 323,
+                "E": 586
+              }
+            },
+            {
+              "pmcid": "PMC10353603",
+              "difference": -0.4631550317407851,
+              "target_token_count": 45,
+              "prompt_token_counts": {
+                "A": 259,
+                "B": 587,
+                "D": 326,
+                "E": 596
+              }
+            },
+            {
+              "pmcid": "PMC8428285",
+              "difference": -0.4328718605255215,
+              "target_token_count": 38,
+              "prompt_token_counts": {
+                "A": 161,
+                "B": 391,
+                "D": 200,
+                "E": 371
+              }
+            }
+          ],
+          "most_worsened_5": [
+            {
+              "pmcid": "PMC7902880",
+              "difference": 0.1297303722794254,
+              "target_token_count": 18,
+              "prompt_token_counts": {
+                "A": 305,
+                "B": 633,
+                "D": 353,
+                "E": 651
+              }
+            },
+            {
+              "pmcid": "PMC8575360",
+              "difference": 0.12730569421295623,
+              "target_token_count": 29,
+              "prompt_token_counts": {
+                "A": 201,
+                "B": 438,
+                "D": 220,
+                "E": 422
+              }
+            },
+            {
+              "pmcid": "PMC8621619",
+              "difference": 0.12717767321130813,
+              "target_token_count": 25,
+              "prompt_token_counts": {
+                "A": 260,
+                "B": 557,
+                "D": 288,
+                "E": 540
+              }
+            },
+            {
+              "pmcid": "PMC8578993",
+              "difference": 0.11098686462251628,
+              "target_token_count": 14,
+              "prompt_token_counts": {
+                "A": 263,
+                "B": 531,
+                "D": 294,
+                "E": 533
+              }
+            },
+            {
+              "pmcid": "PMC8655126",
+              "difference": 0.07577472200564062,
+              "target_token_count": 23,
+              "prompt_token_counts": {
+                "A": 211,
+                "B": 489,
+                "D": 270,
+                "E": 468
+              }
+            }
+          ]
+        },
+        "D_minus_A": {
+          "distribution": {
+            "n": 112,
+            "mean": 0.08334228814715318,
+            "median": 0.06773437250203296,
+            "q1_type7": 0.01630392804018821,
+            "q3_type7": 0.15057688231242733,
+            "min": -0.14861699798811157,
+            "max": 0.5104746511163039
+          },
+          "D_lower": 19,
+          "D_higher": 93,
+          "equal": 0,
+          "bootstrap_95_percentile": [
+            0.0657114628549567,
+            0.1021085488120994
+          ],
+          "exact_two_sided_sign_p": 6.74813608304086e-13,
+          "leave_one_out_mean_range": [
+            0.0794942488411248,
+            0.08543201144566909
+          ],
+          "matches_v2_analysis_mean": true
+        }
+      },
+      "length_diagnostics": {
+        "D_vs_E": {
+          "D_minus_other_tokens": {
+            "n": 112,
+            "mean": -240.53571428571428,
+            "median": -237.0,
+            "q1_type7": -270.25,
+            "q3_type7": -206.75,
+            "min": -449,
+            "max": -155
+          },
+          "D_over_other_ratio": {
+            "n": 112,
+            "mean": 0.545949928848607,
+            "median": 0.5442442602040817,
+            "q1_type7": 0.5261761426978818,
+            "q3_type7": 0.5643746134817563,
+            "min": 0.45472837022132795,
+            "max": 0.642504118616145
+          },
+          "D_shorter_count": 112,
+          "D_longer_count": 0,
+          "equal_length_count": 0,
+          "within_5_percent_length_count": 0,
+          "within_5_percent_length_pmcids": [],
+          "spearman_nll_difference_vs_length_difference": 0.05598458913342429,
+          "spearman_nll_difference_vs_length_ratio": 0.10373907416882695
+        },
+        "D_vs_B": {
+          "D_minus_other_tokens": {
+            "n": 112,
+            "mean": -246.51785714285714,
+            "median": -242.5,
+            "q1_type7": -275.0,
+            "q3_type7": -214.0,
+            "min": -421,
+            "max": -152
+          },
+          "D_over_other_ratio": {
+            "n": 112,
+            "mean": 0.5396594683940128,
+            "median": 0.5429217840982546,
+            "q1_type7": 0.5112663739765329,
+            "q3_type7": 0.5580640746769616,
+            "min": 0.4312977099236641,
+            "max": 0.6531881804043546
+          },
+          "D_shorter_count": 112,
+          "D_longer_count": 0,
+          "equal_length_count": 0,
+          "within_5_percent_length_count": 0,
+          "within_5_percent_length_pmcids": [],
+          "spearman_nll_difference_vs_length_difference": 0.05434473881222864,
+          "spearman_nll_difference_vs_length_ratio": 0.08602692452249974
+        }
+      }
+    },
+    "pilot_2020": {
+      "paper_count": 20,
+      "comparisons": {
+        "D_minus_E": {
+          "distribution": {
+            "n": 20,
+            "mean": -0.18965243301414403,
+            "median": -0.14321864770944126,
+            "q1_type7": -0.3010235006028009,
+            "q3_type7": -0.0748615157679276,
+            "min": -0.6161830474482488,
+            "max": 0.22136128864561533
+          },
+          "D_lower": 18,
+          "D_higher": 2,
+          "equal": 0,
+          "bootstrap_95_percentile": [
+            -0.2784508872011362,
+            -0.10484504015893388
+          ],
+          "exact_two_sided_sign_p": 0.0004024505615234375,
+          "leave_one_out_mean_range": [
+            -0.21128473415413135,
+            -0.1672034533070859
+          ],
+          "matches_v2_analysis_mean": true,
+          "most_improved_5": [
+            {
+              "pmcid": "PMC7805724",
+              "difference": -0.6161830474482488,
+              "target_token_count": 20,
+              "prompt_token_counts": {
+                "A": 264,
+                "B": 584,
+                "D": 312,
+                "E": 588
+              }
+            },
+            {
+              "pmcid": "PMC8022807",
+              "difference": -0.6027594787999995,
+              "target_token_count": 10,
+              "prompt_token_counts": {
+                "A": 319,
+                "B": 729,
+                "D": 398,
+                "E": 718
+              }
+            },
+            {
+              "pmcid": "PMC8028417",
+              "difference": -0.37912274747179975,
+              "target_token_count": 43,
+              "prompt_token_counts": {
+                "A": 205,
+                "B": 489,
+                "D": 246,
+                "E": 468
+              }
+            },
+            {
+              "pmcid": "PMC8022790",
+              "difference": -0.3297317884862423,
+              "target_token_count": 28,
+              "prompt_token_counts": {
+                "A": 269,
+                "B": 559,
+                "D": 299,
+                "E": 530
+              }
+            },
+            {
+              "pmcid": "PMC8022581",
+              "difference": -0.3101693463020352,
+              "target_token_count": 26,
+              "prompt_token_counts": {
+                "A": 304,
+                "B": 729,
+                "D": 371,
+                "E": 733
+              }
+            }
+          ],
+          "most_worsened_5": [
+            {
+              "pmcid": "PMC7931914",
+              "difference": 0.22136128864561533,
+              "target_token_count": 36,
+              "prompt_token_counts": {
+                "A": 180,
+                "B": 507,
+                "D": 240,
+                "E": 490
+              }
+            },
+            {
+              "pmcid": "PMC7805860",
+              "difference": 0.044645543622339634,
+              "target_token_count": 35,
+              "prompt_token_counts": {
+                "A": 319,
+                "B": 652,
+                "D": 357,
+                "E": 619
+              }
+            },
+            {
+              "pmcid": "PMC7806082",
+              "difference": -0.022142407908606998,
+              "target_token_count": 64,
+              "prompt_token_counts": {
+                "A": 235,
+                "B": 488,
+                "D": 271,
+                "E": 489
+              }
+            },
+            {
+              "pmcid": "PMC7805644",
+              "difference": -0.03392428854823315,
+              "target_token_count": 95,
+              "prompt_token_counts": {
+                "A": 279,
+                "B": 556,
+                "D": 330,
+                "E": 575
+              }
+            },
+            {
+              "pmcid": "PMC7806115",
+              "difference": -0.04343573960951885,
+              "target_token_count": 101,
+              "prompt_token_counts": {
+                "A": 261,
+                "B": 571,
+                "D": 299,
+                "E": 558
+              }
+            }
+          ]
+        },
+        "D_minus_B": {
+          "distribution": {
+            "n": 20,
+            "mean": -0.1631629692977027,
+            "median": -0.11794561765418354,
+            "q1_type7": -0.26474196011643536,
+            "q3_type7": -0.05184472329690226,
+            "min": -0.5393048956990247,
+            "max": 0.07146596411863992
+          },
+          "D_lower": 18,
+          "D_higher": 2,
+          "equal": 0,
+          "bootstrap_95_percentile": [
+            -0.23872985554517057,
+            -0.09509463206564238
+          ],
+          "exact_two_sided_sign_p": 0.0004024505615234375,
+          "leave_one_out_mean_range": [
+            -0.17551186053014178,
+            -0.14336602580289626
+          ],
+          "matches_v2_analysis_mean": true,
+          "most_improved_5": [
+            {
+              "pmcid": "PMC8022807",
+              "difference": -0.5393048956990247,
+              "target_token_count": 10,
+              "prompt_token_counts": {
+                "A": 319,
+                "B": 729,
+                "D": 398,
+                "E": 718
+              }
+            },
+            {
+              "pmcid": "PMC7805724",
+              "difference": -0.5219145087992731,
+              "target_token_count": 20,
+              "prompt_token_counts": {
+                "A": 264,
+                "B": 584,
+                "D": 312,
+                "E": 588
+              }
+            },
+            {
+              "pmcid": "PMC7805868",
+              "difference": -0.36829435267524424,
+              "target_token_count": 12,
+              "prompt_token_counts": {
+                "A": 179,
+                "B": 392,
+                "D": 210,
+                "E": 382
+              }
+            },
+            {
+              "pmcid": "PMC8028417",
+              "difference": -0.3349100806646126,
+              "target_token_count": 43,
+              "prompt_token_counts": {
+                "A": 205,
+                "B": 489,
+                "D": 246,
+                "E": 468
+              }
+            },
+            {
+              "pmcid": "PMC8022581",
+              "difference": -0.2820296888975671,
+              "target_token_count": 26,
+              "prompt_token_counts": {
+                "A": 304,
+                "B": 729,
+                "D": 371,
+                "E": 733
+              }
+            }
+          ],
+          "most_worsened_5": [
+            {
+              "pmcid": "PMC7931914",
+              "difference": 0.07146596411863992,
+              "target_token_count": 36,
+              "prompt_token_counts": {
+                "A": 180,
+                "B": 507,
+                "D": 240,
+                "E": 490
+              }
+            },
+            {
+              "pmcid": "PMC7805860",
+              "difference": 0.055977478173736106,
+              "target_token_count": 35,
+              "prompt_token_counts": {
+                "A": 319,
+                "B": 652,
+                "D": 357,
+                "E": 619
+              }
+            },
+            {
+              "pmcid": "PMC7805644",
+              "difference": -0.015695782319275153,
+              "target_token_count": 95,
+              "prompt_token_counts": {
+                "A": 279,
+                "B": 556,
+                "D": 330,
+                "E": 575
+              }
+            },
+            {
+              "pmcid": "PMC7806115",
+              "difference": -0.03657520364336819,
+              "target_token_count": 101,
+              "prompt_token_counts": {
+                "A": 261,
+                "B": 571,
+                "D": 299,
+                "E": 558
+              }
+            },
+            {
+              "pmcid": "PMC7861264",
+              "difference": -0.04190516038439629,
+              "target_token_count": 13,
+              "prompt_token_counts": {
+                "A": 277,
+                "B": 666,
+                "D": 357,
+                "E": 680
+              }
+            }
+          ]
+        },
+        "D_minus_A": {
+          "distribution": {
+            "n": 20,
+            "mean": 0.06812138711609055,
+            "median": 0.06610113136011897,
+            "q1_type7": 0.013021727608643785,
+            "q3_type7": 0.09957622160675905,
+            "min": -0.03912266335100867,
+            "max": 0.2412518452566963
+          },
+          "D_lower": 3,
+          "D_higher": 17,
+          "equal": 0,
+          "bootstrap_95_percentile": [
+            0.037043582039998954,
+            0.10137951850851037
+          ],
+          "exact_two_sided_sign_p": 0.0025768280029296875,
+          "leave_one_out_mean_range": [
+            0.059009257740269196,
+            0.07376581082488524
+          ],
+          "matches_v2_analysis_mean": true
+        }
+      },
+      "length_diagnostics": {
+        "D_vs_E": {
+          "D_minus_other_tokens": {
+            "n": 20,
+            "mean": -265.8,
+            "median": -257.5,
+            "q1_type7": -295.25,
+            "q3_type7": -228.75,
+            "min": -362,
+            "max": -172
+          },
+          "D_over_other_ratio": {
+            "n": 20,
+            "mean": 0.5401439226483504,
+            "median": 0.5441705805358792,
+            "q1_type7": 0.5202847885402456,
+            "q3_type7": 0.5666129270516562,
+            "min": 0.47368421052631576,
+            "max": 0.5997638724911453
+          },
+          "D_shorter_count": 20,
+          "D_longer_count": 0,
+          "equal_length_count": 0,
+          "within_5_percent_length_count": 0,
+          "within_5_percent_length_pmcids": [],
+          "spearman_nll_difference_vs_length_difference": 0.20451127819548873,
+          "spearman_nll_difference_vs_length_ratio": 0.04360902255639098
+        },
+        "D_vs_B": {
+          "D_minus_other_tokens": {
+            "n": 20,
+            "mean": -269.25,
+            "median": -264.0,
+            "q1_type7": -301.5,
+            "q3_type7": -238.75,
+            "min": -358,
+            "max": -182
+          },
+          "D_over_other_ratio": {
+            "n": 20,
+            "mean": 0.5360837937702354,
+            "median": 0.5358751608751608,
+            "q1_type7": 0.5074541139639981,
+            "q3_type7": 0.5554260650865954,
+            "min": 0.47337278106508873,
+            "max": 0.6047619047619047
+          },
+          "D_shorter_count": 20,
+          "D_longer_count": 0,
+          "equal_length_count": 0,
+          "within_5_percent_length_count": 0,
+          "within_5_percent_length_pmcids": [],
+          "spearman_nll_difference_vs_length_difference": -0.035351638453382524,
+          "spearman_nll_difference_vs_length_ratio": 0.02406015037593985
+        }
+      }
+    }
+  },
+  "per_paper_csv_sha256": "a1ce84e107a7f12d7ba7279e7c107eb13896cd2cd27cede306587d7c83f582f4"
+}
