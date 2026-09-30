@@ -1,0 +1,1313 @@
+{
+  "experiment": "Europe PMC revised sentence data v2; exploratory; not original locked sample",
+  "batch": "pilot_2020",
+  "source_review_sha256": "0b1d9701a46f7ebacab8efabcaf04f012a9d8959028656be13b27bbad1a2e2b1",
+  "policy_sha256": "5e4df6cf24d3504ea1b44208611a662991fb13c0def26dcbb86c245463e088c1",
+  "candidate_sha256": "8c67c65d9d5eb67a52ce1b0befaa8f099f3df022e869e1cb14a133d8a903e8ab",
+  "original_selection_sha256": "8edecb31196fc7cbc5f0bba445f2fd24d9397cbd333dc68445aca110120efd1e",
+  "original_identity_count": 20,
+  "included_count": 20,
+  "excluded_count": 0,
+  "rows": [
+    {
+      "selection_order": 1,
+      "pmcid": "PMC8028417",
+      "xml_path": "/Users/vivian_hsu/Desktop/Capstone/bpe-merge-order/data/europe_pmc_pilot/raw/PMC8028417.xml",
+      "xml_sha256": "492c0b5d92ecbd7a52d47f1d9acf3cc4fb0973142cfa600566cc52369f481cb5",
+      "decision": "include",
+      "exclusion_code": null,
+      "exclusion_reason": null,
+      "six_sentences": [
+        "A growing body of work on academic performance measures has been taking place in the field of research evaluation (Van Noorden, 2010).",
+        "While grounded in information science, additional efforts have strived to make these metrics broadly available via web-based interfaces to a wide array of academic users.",
+        "These interfaces are textual, visual, or a combination thereof.",
+        "Technology/publishing companies play a protagonistic role in these developments, having fielded popular systems, such as Google Scholar (by Google) and SciVal (by Elsevier) (Vardell et al., 2011).",
+        "Google Scholar is a free bibliographic system, mostly textual in nature, which provides all-encompassing citation data, but requires setup by individual scholars.",
+        "SciVal is a fee-based system that fashions dozens of academic performance metrics in textual and plot form; it does not depend on individual scholar setup, but provides only a fraction of the citations in Google Scholar."
+      ],
+      "six_source_positions": [
+        {
+          "text": "A growing body of work on academic performance measures has been taking place in the field of research evaluation (Van Noorden, 2010).",
+          "xpath": "/article/body/sec[1]/p[1]",
+          "paragraph_index": 1,
+          "start_char_in_flattened_paragraph": 0,
+          "end_char_in_flattened_paragraph": 134
+        },
+        {
+          "text": "While grounded in information science, additional efforts have strived to make these metrics broadly available via web-based interfaces to a wide array of academic users.",
+          "xpath": "/article/body/sec[1]/p[1]",
+          "paragraph_index": 1,
+          "start_char_in_flattened_paragraph": 135,
+          "end_char_in_flattened_paragraph": 305
+        },
+        {
+          "text": "These interfaces are textual, visual, or a combination thereof.",
+          "xpath": "/article/body/sec[1]/p[1]",
+          "paragraph_index": 1,
+          "start_char_in_flattened_paragraph": 306,
+          "end_char_in_flattened_paragraph": 369
+        },
+        {
+          "text": "Technology/publishing companies play a protagonistic role in these developments, having fielded popular systems, such as Google Scholar (by Google) and SciVal (by Elsevier) (Vardell et al., 2011).",
+          "xpath": "/article/body/sec[1]/p[1]",
+          "paragraph_index": 1,
+          "start_char_in_flattened_paragraph": 370,
+          "end_char_in_flattened_paragraph": 566
+        },
+        {
+          "text": "Google Scholar is a free bibliographic system, mostly textual in nature, which provides all-encompassing citation data, but requires setup by individual scholars.",
+          "xpath": "/article/body/sec[1]/p[1]",
+          "paragraph_index": 1,
+          "start_char_in_flattened_paragraph": 567,
+          "end_char_in_flattened_paragraph": 729
+        },
+        {
+          "text": "SciVal is a fee-based system that fashions dozens of academic performance metrics in textual and plot form; it does not depend on individual scholar setup, but provides only a fraction of the citations in Google Scholar.",
+          "xpath": "/article/body/sec[1]/p[1]",
+          "paragraph_index": 1,
+          "start_char_in_flattened_paragraph": 730,
+          "end_char_in_flattened_paragraph": 950
+        }
+      ],
+      "input_text": "A growing body of work on academic performance measures has been taking place in the field of research evaluation (Van Noorden, 2010). While grounded in information science, additional efforts have strived to make these metrics broadly available via web-based interfaces to a wide array of academic users. These interfaces are textual, visual, or a combination thereof. Technology/publishing companies play a protagonistic role in these developments, having fielded popular systems, such as Google Scholar (by Google) and SciVal (by Elsevier) (Vardell et al., 2011). Google Scholar is a free bibliographic system, mostly textual in nature, which provides all-encompassing citation data, but requires setup by individual scholars.",
+      "sixth_sentence": "SciVal is a fee-based system that fashions dozens of academic performance metrics in textual and plot form; it does not depend on individual scholar setup, but provides only a fraction of the citations in Google Scholar.",
+      "input_changed_from_old": true,
+      "target_changed_from_old": false
+    },
+    {
+      "selection_order": 2,
+      "pmcid": "PMC8022581",
+      "xml_path": "/Users/vivian_hsu/Desktop/Capstone/bpe-merge-order/data/europe_pmc_pilot/raw/PMC8022581.xml",
+      "xml_sha256": "887120b35b53bbc4cc195e8d15f72d833fcdc1a0100e104118819c16c8950014",
+      "decision": "include",
+      "exclusion_code": null,
+      "exclusion_reason": null,
+      "six_sentences": [
+        "Significant epistemological challenges arise from the World Health Organization (WHO)'s recommendation that policy makers worldwide implement statutory regulations to govern practitioners of traditional and complementary medicine (T&CM).",
+        "Traditional medicine systems (such as Chinese medicine and India's Ayurveda), whose indigenous cultural origins pre-date contemporary biomedicine, are rooted in conceptual models that differ significantly from the bioscientific approach.",
+        "Some complementary medicine approaches (e.g., acupuncture, manual therapies, herbal medicine) originate in such traditional medicine systems, and may retain pre-biomedical epistemic features in contemporary clinical practice.",
+        "Other, more-recently developed complementary health care systems also have unique epistemic foundations distinct from the conventional biomedical paradigm (e.g., homeopathy), and/or additive upon this paradigm (e.g., osteopathy, anthroposophy, naturopathy) (Ijaz et al., 2019).",
+        "In an era in which the twin discourses of public safety and evidence-based decision making dominate the global policy sphere (Chamberlain, 2016), how may regulators contend with competing evidentiary claims rooted in health care paradigms whose epistemologies are at best overlapping and at worst incommensurable?",
+        "A 2012 WHO survey indicates that regulators seek additional guidance with respect to the implementation of T&CM professional regulations."
+      ],
+      "six_source_positions": [
+        {
+          "text": "Significant epistemological challenges arise from the World Health Organization (WHO)'s recommendation that policy makers worldwide implement statutory regulations to govern practitioners of traditional and complementary medicine (T&CM).",
+          "xpath": "/article/body/sec[1]/p[1]",
+          "paragraph_index": 1,
+          "start_char_in_flattened_paragraph": 0,
+          "end_char_in_flattened_paragraph": 237
+        },
+        {
+          "text": "Traditional medicine systems (such as Chinese medicine and India's Ayurveda), whose indigenous cultural origins pre-date contemporary biomedicine, are rooted in conceptual models that differ significantly from the bioscientific approach.",
+          "xpath": "/article/body/sec[1]/p[1]",
+          "paragraph_index": 1,
+          "start_char_in_flattened_paragraph": 238,
+          "end_char_in_flattened_paragraph": 475
+        },
+        {
+          "text": "Some complementary medicine approaches (e.g., acupuncture, manual therapies, herbal medicine) originate in such traditional medicine systems, and may retain pre-biomedical epistemic features in contemporary clinical practice.",
+          "xpath": "/article/body/sec[1]/p[1]",
+          "paragraph_index": 1,
+          "start_char_in_flattened_paragraph": 476,
+          "end_char_in_flattened_paragraph": 701
+        },
+        {
+          "text": "Other, more-recently developed complementary health care systems also have unique epistemic foundations distinct from the conventional biomedical paradigm (e.g., homeopathy), and/or additive upon this paradigm (e.g., osteopathy, anthroposophy, naturopathy) (Ijaz et al., 2019).",
+          "xpath": "/article/body/sec[1]/p[1]",
+          "paragraph_index": 1,
+          "start_char_in_flattened_paragraph": 702,
+          "end_char_in_flattened_paragraph": 979
+        },
+        {
+          "text": "In an era in which the twin discourses of public safety and evidence-based decision making dominate the global policy sphere (Chamberlain, 2016), how may regulators contend with competing evidentiary claims rooted in health care paradigms whose epistemologies are at best overlapping and at worst incommensurable?",
+          "xpath": "/article/body/sec[1]/p[1]",
+          "paragraph_index": 1,
+          "start_char_in_flattened_paragraph": 980,
+          "end_char_in_flattened_paragraph": 1293
+        },
+        {
+          "text": "A 2012 WHO survey indicates that regulators seek additional guidance with respect to the implementation of T&CM professional regulations.",
+          "xpath": "/article/body/sec[1]/p[2]",
+          "paragraph_index": 2,
+          "start_char_in_flattened_paragraph": 0,
+          "end_char_in_flattened_paragraph": 137
+        }
+      ],
+      "input_text": "Significant epistemological challenges arise from the World Health Organization (WHO)'s recommendation that policy makers worldwide implement statutory regulations to govern practitioners of traditional and complementary medicine (T&CM). Traditional medicine systems (such as Chinese medicine and India's Ayurveda), whose indigenous cultural origins pre-date contemporary biomedicine, are rooted in conceptual models that differ significantly from the bioscientific approach. Some complementary medicine approaches (e.g., acupuncture, manual therapies, herbal medicine) originate in such traditional medicine systems, and may retain pre-biomedical epistemic features in contemporary clinical practice. Other, more-recently developed complementary health care systems also have unique epistemic foundations distinct from the conventional biomedical paradigm (e.g., homeopathy), and/or additive upon this paradigm (e.g., osteopathy, anthroposophy, naturopathy) (Ijaz et al., 2019). In an era in which the twin discourses of public safety and evidence-based decision making dominate the global policy sphere (Chamberlain, 2016), how may regulators contend with competing evidentiary claims rooted in health care paradigms whose epistemologies are at best overlapping and at worst incommensurable?",
+      "sixth_sentence": "A 2012 WHO survey indicates that regulators seek additional guidance with respect to the implementation of T&CM professional regulations.",
+      "input_changed_from_old": true,
+      "target_changed_from_old": false
+    },
+    {
+      "selection_order": 3,
+      "pmcid": "PMC8022504",
+      "xml_path": "/Users/vivian_hsu/Desktop/Capstone/bpe-merge-order/data/europe_pmc_pilot/raw/PMC8022504.xml",
+      "xml_sha256": "fca1413bf24f81aea452f66606cacf538ed3b8140c68e17caebfab38e687cd16",
+      "decision": "include",
+      "exclusion_code": null,
+      "exclusion_reason": null,
+      "six_sentences": [
+        "For me, Bell's epigram (2010) says that telling stories can stimulate what Mills (1959) called our sociological imaginations.",
+        "Stories can help us to situate biographies within particular moments in the histories of societies.",
+        "This process can reveal previously hidden viewpoints, connections, and influences to allow for their transformation.",
+        "In this paper, I share stories of individual, familial, and communal health and well-being from the hidden viewpoint of Black mothers in the UK at the turn of the twenty-first century.",
+        "I draw these stories from data gathered as part of my doctoral research from a group of professional Black women.",
+        "Like me, they were mothers with a Caribbean heritage involved in community activism."
+      ],
+      "six_source_positions": [
+        {
+          "text": "For me, Bell's epigram (2010) says that telling stories can stimulate what Mills (1959) called our sociological imaginations.",
+          "xpath": "/article/body/sec[1]/p[1]",
+          "paragraph_index": 1,
+          "start_char_in_flattened_paragraph": 0,
+          "end_char_in_flattened_paragraph": 125
+        },
+        {
+          "text": "Stories can help us to situate biographies within particular moments in the histories of societies.",
+          "xpath": "/article/body/sec[1]/p[1]",
+          "paragraph_index": 1,
+          "start_char_in_flattened_paragraph": 126,
+          "end_char_in_flattened_paragraph": 225
+        },
+        {
+          "text": "This process can reveal previously hidden viewpoints, connections, and influences to allow for their transformation.",
+          "xpath": "/article/body/sec[1]/p[1]",
+          "paragraph_index": 1,
+          "start_char_in_flattened_paragraph": 226,
+          "end_char_in_flattened_paragraph": 342
+        },
+        {
+          "text": "In this paper, I share stories of individual, familial, and communal health and well-being from the hidden viewpoint of Black mothers in the UK at the turn of the twenty-first century.",
+          "xpath": "/article/body/sec[1]/p[1]",
+          "paragraph_index": 1,
+          "start_char_in_flattened_paragraph": 343,
+          "end_char_in_flattened_paragraph": 527
+        },
+        {
+          "text": "I draw these stories from data gathered as part of my doctoral research from a group of professional Black women.",
+          "xpath": "/article/body/sec[1]/p[1]",
+          "paragraph_index": 1,
+          "start_char_in_flattened_paragraph": 528,
+          "end_char_in_flattened_paragraph": 641
+        },
+        {
+          "text": "Like me, they were mothers with a Caribbean heritage involved in community activism.",
+          "xpath": "/article/body/sec[1]/p[1]",
+          "paragraph_index": 1,
+          "start_char_in_flattened_paragraph": 642,
+          "end_char_in_flattened_paragraph": 726
+        }
+      ],
+      "input_text": "For me, Bell's epigram (2010) says that telling stories can stimulate what Mills (1959) called our sociological imaginations. Stories can help us to situate biographies within particular moments in the histories of societies. This process can reveal previously hidden viewpoints, connections, and influences to allow for their transformation. In this paper, I share stories of individual, familial, and communal health and well-being from the hidden viewpoint of Black mothers in the UK at the turn of the twenty-first century. I draw these stories from data gathered as part of my doctoral research from a group of professional Black women.",
+      "sixth_sentence": "Like me, they were mothers with a Caribbean heritage involved in community activism.",
+      "input_changed_from_old": true,
+      "target_changed_from_old": true
+    },
+    {
+      "selection_order": 4,
+      "pmcid": "PMC8022807",
+      "xml_path": "/Users/vivian_hsu/Desktop/Capstone/bpe-merge-order/data/europe_pmc_pilot/raw/PMC8022807.xml",
+      "xml_sha256": "a920a807d90780a321fdf958e85c51127763957f08b0c0698b3f5b817da95bae",
+      "decision": "include",
+      "exclusion_code": null,
+      "exclusion_reason": null,
+      "six_sentences": [
+        "The focus of this article are the working conditions and academic aspirations of female and male adjunct professors (APs), as paradigmatic example of a new form of precarious working conditions in the academia1.",
+        "Thus, in light of the existing studies on the relationship between non-standard work arrangements and social inequalities (cf. Standing, 1989, 2014; Bigi et al., 2015; Krinsky and Simonet, 2019), our main interest is to explore how social gender inequalities are produced and practiced in the Italian academic field (cf. Bourdieu, 1984; Murgia and Poggio, 2018), on the basis of its genesis and social structure.",
+        "More specifically, by choosing adjunct professors as research object we intend to point out two specific questions concerning the transformation of the Italian academic structure in the last four decades.",
+        "The first one regards the increasing use of adjunct professors as disguised form of self-employment in the academic system, in front of a progressive public disinvestment in the Italian Universities, especially for teaching activities.",
+        "The second one regards the low prestige (symbolic capital in Bourdieusian term) of adjunct professors also with respect to other precarious academic positions, such as the research fellows and assistants.",
+        "Thus, most of the adjunct professors are men."
+      ],
+      "six_source_positions": [
+        {
+          "text": "The focus of this article are the working conditions and academic aspirations of female and male adjunct professors (APs), as paradigmatic example of a new form of precarious working conditions in the academia1.",
+          "xpath": "/article/body/sec[1]/p[1]",
+          "paragraph_index": 1,
+          "start_char_in_flattened_paragraph": 0,
+          "end_char_in_flattened_paragraph": 211
+        },
+        {
+          "text": "Thus, in light of the existing studies on the relationship between non-standard work arrangements and social inequalities (cf. Standing, 1989, 2014; Bigi et al., 2015; Krinsky and Simonet, 2019), our main interest is to explore how social gender inequalities are produced and practiced in the Italian academic field (cf. Bourdieu, 1984; Murgia and Poggio, 2018), on the basis of its genesis and social structure.",
+          "xpath": "/article/body/sec[1]/p[1]",
+          "paragraph_index": 1,
+          "start_char_in_flattened_paragraph": 212,
+          "end_char_in_flattened_paragraph": 624
+        },
+        {
+          "text": "More specifically, by choosing adjunct professors as research object we intend to point out two specific questions concerning the transformation of the Italian academic structure in the last four decades.",
+          "xpath": "/article/body/sec[1]/p[1]",
+          "paragraph_index": 1,
+          "start_char_in_flattened_paragraph": 625,
+          "end_char_in_flattened_paragraph": 829
+        },
+        {
+          "text": "The first one regards the increasing use of adjunct professors as disguised form of self-employment in the academic system, in front of a progressive public disinvestment in the Italian Universities, especially for teaching activities.",
+          "xpath": "/article/body/sec[1]/p[1]",
+          "paragraph_index": 1,
+          "start_char_in_flattened_paragraph": 830,
+          "end_char_in_flattened_paragraph": 1065
+        },
+        {
+          "text": "The second one regards the low prestige (symbolic capital in Bourdieusian term) of adjunct professors also with respect to other precarious academic positions, such as the research fellows and assistants.",
+          "xpath": "/article/body/sec[1]/p[1]",
+          "paragraph_index": 1,
+          "start_char_in_flattened_paragraph": 1066,
+          "end_char_in_flattened_paragraph": 1270
+        },
+        {
+          "text": "Thus, most of the adjunct professors are men.",
+          "xpath": "/article/body/sec[1]/p[1]",
+          "paragraph_index": 1,
+          "start_char_in_flattened_paragraph": 1271,
+          "end_char_in_flattened_paragraph": 1316
+        }
+      ],
+      "input_text": "The focus of this article are the working conditions and academic aspirations of female and male adjunct professors (APs), as paradigmatic example of a new form of precarious working conditions in the academia1. Thus, in light of the existing studies on the relationship between non-standard work arrangements and social inequalities (cf. Standing, 1989, 2014; Bigi et al., 2015; Krinsky and Simonet, 2019), our main interest is to explore how social gender inequalities are produced and practiced in the Italian academic field (cf. Bourdieu, 1984; Murgia and Poggio, 2018), on the basis of its genesis and social structure. More specifically, by choosing adjunct professors as research object we intend to point out two specific questions concerning the transformation of the Italian academic structure in the last four decades. The first one regards the increasing use of adjunct professors as disguised form of self-employment in the academic system, in front of a progressive public disinvestment in the Italian Universities, especially for teaching activities. The second one regards the low prestige (symbolic capital in Bourdieusian term) of adjunct professors also with respect to other precarious academic positions, such as the research fellows and assistants.",
+      "sixth_sentence": "Thus, most of the adjunct professors are men.",
+      "input_changed_from_old": true,
+      "target_changed_from_old": false
+    },
+    {
+      "selection_order": 5,
+      "pmcid": "PMC8022790",
+      "xml_path": "/Users/vivian_hsu/Desktop/Capstone/bpe-merge-order/data/europe_pmc_pilot/raw/PMC8022790.xml",
+      "xml_sha256": "35797810e745701f419cc6d241f1b2a63b88332f10f8480cf9d75659eb49b8d7",
+      "decision": "include",
+      "exclusion_code": null,
+      "exclusion_reason": null,
+      "six_sentences": [
+        "The 2019 series of Love Island1, a UK reality TV dating show, had an average audience of 3.63 million, peaking at 4.05 million for the show's finale, and gained a 21.4% average audience share (BBC News, 2019a).",
+        "The viewing is both gendered and generational.",
+        "The 2018 series 3 of Love Island attracted more than half (52.3%) of all television viewing by the 16–24 age group (Jones, 2017), most of which were young women aged 16–34.",
+        "However, a younger audience also watches, with evidence of primary school children (aged 8–11) viewing the post watershed programme (BBC News, 2019b).",
+        "Whilst this has raised concerns about the adult content of the programme, it also raises the possibility of the use of programmes such as Love Island to start age appropriate conversations about relationships with younger viewers.",
+        "Many of these younger viewers may be entering their first romantic and sexual relationships, and the models of relationships shown on the programme can be problematic."
+      ],
+      "six_source_positions": [
+        {
+          "text": "The 2019 series of Love Island1, a UK reality TV dating show, had an average audience of 3.63 million, peaking at 4.05 million for the show's finale, and gained a 21.4% average audience share (BBC News, 2019a).",
+          "xpath": "/article/body/sec[1]/p[1]",
+          "paragraph_index": 1,
+          "start_char_in_flattened_paragraph": 0,
+          "end_char_in_flattened_paragraph": 210
+        },
+        {
+          "text": "The viewing is both gendered and generational.",
+          "xpath": "/article/body/sec[1]/p[1]",
+          "paragraph_index": 1,
+          "start_char_in_flattened_paragraph": 211,
+          "end_char_in_flattened_paragraph": 257
+        },
+        {
+          "text": "The 2018 series 3 of Love Island attracted more than half (52.3%) of all television viewing by the 16–24 age group (Jones, 2017), most of which were young women aged 16–34.",
+          "xpath": "/article/body/sec[1]/p[1]",
+          "paragraph_index": 1,
+          "start_char_in_flattened_paragraph": 258,
+          "end_char_in_flattened_paragraph": 430
+        },
+        {
+          "text": "However, a younger audience also watches, with evidence of primary school children (aged 8–11) viewing the post watershed programme (BBC News, 2019b).",
+          "xpath": "/article/body/sec[1]/p[1]",
+          "paragraph_index": 1,
+          "start_char_in_flattened_paragraph": 431,
+          "end_char_in_flattened_paragraph": 581
+        },
+        {
+          "text": "Whilst this has raised concerns about the adult content of the programme, it also raises the possibility of the use of programmes such as Love Island to start age appropriate conversations about relationships with younger viewers.",
+          "xpath": "/article/body/sec[1]/p[1]",
+          "paragraph_index": 1,
+          "start_char_in_flattened_paragraph": 582,
+          "end_char_in_flattened_paragraph": 812
+        },
+        {
+          "text": "Many of these younger viewers may be entering their first romantic and sexual relationships, and the models of relationships shown on the programme can be problematic.",
+          "xpath": "/article/body/sec[1]/p[1]",
+          "paragraph_index": 1,
+          "start_char_in_flattened_paragraph": 813,
+          "end_char_in_flattened_paragraph": 980
+        }
+      ],
+      "input_text": "The 2019 series of Love Island1, a UK reality TV dating show, had an average audience of 3.63 million, peaking at 4.05 million for the show's finale, and gained a 21.4% average audience share (BBC News, 2019a). The viewing is both gendered and generational. The 2018 series 3 of Love Island attracted more than half (52.3%) of all television viewing by the 16–24 age group (Jones, 2017), most of which were young women aged 16–34. However, a younger audience also watches, with evidence of primary school children (aged 8–11) viewing the post watershed programme (BBC News, 2019b). Whilst this has raised concerns about the adult content of the programme, it also raises the possibility of the use of programmes such as Love Island to start age appropriate conversations about relationships with younger viewers.",
+      "sixth_sentence": "Many of these younger viewers may be entering their first romantic and sexual relationships, and the models of relationships shown on the programme can be problematic.",
+      "input_changed_from_old": true,
+      "target_changed_from_old": false
+    },
+    {
+      "selection_order": 6,
+      "pmcid": "PMC7861264",
+      "xml_path": "/Users/vivian_hsu/Desktop/Capstone/bpe-merge-order/data/europe_pmc_pilot/raw/PMC7861264.xml",
+      "xml_sha256": "b1fb83af7cd3c05e795be197135a6d177050e0416cc56387ef956aaec71d45ab",
+      "decision": "include",
+      "exclusion_code": null,
+      "exclusion_reason": null,
+      "six_sentences": [
+        "The heterogeneity of depression constitutes a major barrier to successful treatment (Perna et al., 2018).",
+        "Clinicians and patients are faced with a plethora of treatment options, with over 20 commonly prescribed antidepressants, augmentation therapies, psychotherapies, neuromodulation, and lifestyle interventions, but a paucity of evidence-based information to inform treatment selection and personalization.",
+        "The resultant trial and error approach to treatment selection prescription is ineffective: a third of patients fail to remit to a first-line antidepressant, with remission rates decreasing with subsequent treatments (Rush et al., 2006).",
+        "Researchers have strived to identify predictors of treatment outcome across clinical profile, sociodemographic, physiological, neuroimaging, genomic, and other possible predictor types (Williams et al., 2011), yet few, if any, predictors have translated into common clinical practice.",
+        "Machine learning (ML) is capable of tackling the challenges of interpreting large, multidimensional, interrelated datasets found in psychiatric research and may help us create clinically useful models for treatment selection.",
+        "Two objectives in the study of biological systems are inference and prediction."
+      ],
+      "six_source_positions": [
+        {
+          "text": "The heterogeneity of depression constitutes a major barrier to successful treatment (Perna et al., 2018).",
+          "xpath": "/article/body/sec[1]/p[1]",
+          "paragraph_index": 1,
+          "start_char_in_flattened_paragraph": 0,
+          "end_char_in_flattened_paragraph": 105
+        },
+        {
+          "text": "Clinicians and patients are faced with a plethora of treatment options, with over 20 commonly prescribed antidepressants, augmentation therapies, psychotherapies, neuromodulation, and lifestyle interventions, but a paucity of evidence-based information to inform treatment selection and personalization.",
+          "xpath": "/article/body/sec[1]/p[1]",
+          "paragraph_index": 1,
+          "start_char_in_flattened_paragraph": 106,
+          "end_char_in_flattened_paragraph": 409
+        },
+        {
+          "text": "The resultant trial and error approach to treatment selection prescription is ineffective: a third of patients fail to remit to a first-line antidepressant, with remission rates decreasing with subsequent treatments (Rush et al., 2006).",
+          "xpath": "/article/body/sec[1]/p[1]",
+          "paragraph_index": 1,
+          "start_char_in_flattened_paragraph": 410,
+          "end_char_in_flattened_paragraph": 646
+        },
+        {
+          "text": "Researchers have strived to identify predictors of treatment outcome across clinical profile, sociodemographic, physiological, neuroimaging, genomic, and other possible predictor types (Williams et al., 2011), yet few, if any, predictors have translated into common clinical practice.",
+          "xpath": "/article/body/sec[1]/p[1]",
+          "paragraph_index": 1,
+          "start_char_in_flattened_paragraph": 647,
+          "end_char_in_flattened_paragraph": 931
+        },
+        {
+          "text": "Machine learning (ML) is capable of tackling the challenges of interpreting large, multidimensional, interrelated datasets found in psychiatric research and may help us create clinically useful models for treatment selection.",
+          "xpath": "/article/body/sec[1]/p[1]",
+          "paragraph_index": 1,
+          "start_char_in_flattened_paragraph": 932,
+          "end_char_in_flattened_paragraph": 1157
+        },
+        {
+          "text": "Two objectives in the study of biological systems are inference and prediction.",
+          "xpath": "/article/body/sec[1]/p[2]",
+          "paragraph_index": 2,
+          "start_char_in_flattened_paragraph": 0,
+          "end_char_in_flattened_paragraph": 79
+        }
+      ],
+      "input_text": "The heterogeneity of depression constitutes a major barrier to successful treatment (Perna et al., 2018). Clinicians and patients are faced with a plethora of treatment options, with over 20 commonly prescribed antidepressants, augmentation therapies, psychotherapies, neuromodulation, and lifestyle interventions, but a paucity of evidence-based information to inform treatment selection and personalization. The resultant trial and error approach to treatment selection prescription is ineffective: a third of patients fail to remit to a first-line antidepressant, with remission rates decreasing with subsequent treatments (Rush et al., 2006). Researchers have strived to identify predictors of treatment outcome across clinical profile, sociodemographic, physiological, neuroimaging, genomic, and other possible predictor types (Williams et al., 2011), yet few, if any, predictors have translated into common clinical practice. Machine learning (ML) is capable of tackling the challenges of interpreting large, multidimensional, interrelated datasets found in psychiatric research and may help us create clinically useful models for treatment selection.",
+      "sixth_sentence": "Two objectives in the study of biological systems are inference and prediction.",
+      "input_changed_from_old": true,
+      "target_changed_from_old": false
+    },
+    {
+      "selection_order": 7,
+      "pmcid": "PMC7931918",
+      "xml_path": "/Users/vivian_hsu/Desktop/Capstone/bpe-merge-order/data/europe_pmc_pilot/raw/PMC7931918.xml",
+      "xml_sha256": "e4f204c47ebf55c3f6208a8a53bb674b211ac57fbaeef0a5a96190f7140b4042",
+      "decision": "include",
+      "exclusion_code": null,
+      "exclusion_reason": null,
+      "six_sentences": [
+        "Phosphorus (P) is an essential nutrient for all living organisms (White and Hammond, 2008).",
+        "As weathering of minerals and the deposition of atmospheric dust are minor sources of P (Walker and Syers, 1976; Vitousek et al., 2010; Wang et al., 2015), the recycling of organic P from litter and soil organic matter is of utter importance for plant growth and microbial activity in terrestrial ecosystems.",
+        "In P-poor ecosystems, limited P recycling may dampen the response of plant growth to elevated CO2 concentration (Ellsworth et al., 2017).",
+        "Yang et al. (2014) reported in a modeling study that the effect of elevated CO2 on plant productivity in the Amazon Basin critically dependent on assumptions regarding the P-recycling efficiency within soils, which was strongly related to the parameterization of phosphatase production in their model.",
+        "The rate at which ecosystems can recycle P from litter and soil organic matter is poorly quantified by observation (Gill and Finzi, 2016).",
+        "Soil phosphatases secreted by fungi, bacteria, and plant roots play an important but poorly quantified role in transforming complex and unavailable forms of organic P into assimilable phosphate (Caldwell, 2005)."
+      ],
+      "six_source_positions": [
+        {
+          "text": "Phosphorus (P) is an essential nutrient for all living organisms (White and Hammond, 2008).",
+          "xpath": "/article/body/sec[1]/p[1]",
+          "paragraph_index": 1,
+          "start_char_in_flattened_paragraph": 0,
+          "end_char_in_flattened_paragraph": 91
+        },
+        {
+          "text": "As weathering of minerals and the deposition of atmospheric dust are minor sources of P (Walker and Syers, 1976; Vitousek et al., 2010; Wang et al., 2015), the recycling of organic P from litter and soil organic matter is of utter importance for plant growth and microbial activity in terrestrial ecosystems.",
+          "xpath": "/article/body/sec[1]/p[1]",
+          "paragraph_index": 1,
+          "start_char_in_flattened_paragraph": 92,
+          "end_char_in_flattened_paragraph": 400
+        },
+        {
+          "text": "In P-poor ecosystems, limited P recycling may dampen the response of plant growth to elevated CO2 concentration (Ellsworth et al., 2017).",
+          "xpath": "/article/body/sec[1]/p[1]",
+          "paragraph_index": 1,
+          "start_char_in_flattened_paragraph": 401,
+          "end_char_in_flattened_paragraph": 538
+        },
+        {
+          "text": "Yang et al. (2014) reported in a modeling study that the effect of elevated CO2 on plant productivity in the Amazon Basin critically dependent on assumptions regarding the P-recycling efficiency within soils, which was strongly related to the parameterization of phosphatase production in their model.",
+          "xpath": "/article/body/sec[1]/p[1]",
+          "paragraph_index": 1,
+          "start_char_in_flattened_paragraph": 539,
+          "end_char_in_flattened_paragraph": 840
+        },
+        {
+          "text": "The rate at which ecosystems can recycle P from litter and soil organic matter is poorly quantified by observation (Gill and Finzi, 2016).",
+          "xpath": "/article/body/sec[1]/p[2]",
+          "paragraph_index": 2,
+          "start_char_in_flattened_paragraph": 0,
+          "end_char_in_flattened_paragraph": 138
+        },
+        {
+          "text": "Soil phosphatases secreted by fungi, bacteria, and plant roots play an important but poorly quantified role in transforming complex and unavailable forms of organic P into assimilable phosphate (Caldwell, 2005).",
+          "xpath": "/article/body/sec[1]/p[2]",
+          "paragraph_index": 2,
+          "start_char_in_flattened_paragraph": 139,
+          "end_char_in_flattened_paragraph": 350
+        }
+      ],
+      "input_text": "Phosphorus (P) is an essential nutrient for all living organisms (White and Hammond, 2008). As weathering of minerals and the deposition of atmospheric dust are minor sources of P (Walker and Syers, 1976; Vitousek et al., 2010; Wang et al., 2015), the recycling of organic P from litter and soil organic matter is of utter importance for plant growth and microbial activity in terrestrial ecosystems. In P-poor ecosystems, limited P recycling may dampen the response of plant growth to elevated CO2 concentration (Ellsworth et al., 2017). Yang et al. (2014) reported in a modeling study that the effect of elevated CO2 on plant productivity in the Amazon Basin critically dependent on assumptions regarding the P-recycling efficiency within soils, which was strongly related to the parameterization of phosphatase production in their model. The rate at which ecosystems can recycle P from litter and soil organic matter is poorly quantified by observation (Gill and Finzi, 2016).",
+      "sixth_sentence": "Soil phosphatases secreted by fungi, bacteria, and plant roots play an important but poorly quantified role in transforming complex and unavailable forms of organic P into assimilable phosphate (Caldwell, 2005).",
+      "input_changed_from_old": true,
+      "target_changed_from_old": true
+    },
+    {
+      "selection_order": 8,
+      "pmcid": "PMC7931914",
+      "xml_path": "/Users/vivian_hsu/Desktop/Capstone/bpe-merge-order/data/europe_pmc_pilot/raw/PMC7931914.xml",
+      "xml_sha256": "f4c74109a4d45816f8698013dd24e8e8e27447f262448a3bdd89b6948f84be39",
+      "decision": "include",
+      "exclusion_code": null,
+      "exclusion_reason": null,
+      "six_sentences": [
+        "Subject classification is a popular and useful aspect for academic database and data analysis.",
+        "Academic resources, such as research articles, journals, conference proceedings, books, field samples, software, and various electronic materials, are organized by subject classifications in the general or domain-specific approach.",
+        "University libraries, institutional resource centers, and research labs organize their research resources in an efficient manner to gain easy access to these resources when necessary.",
+        "Research funding agencies manage their applicants, projects, and reports by classifying research subjects, which are often diversified and transformed to reflect on the current research landscape.",
+        "Academic fields are fundamental concepts of academic classifications for organizing academic materials.",
+        "From analysis perspectives, institutional research (IR) focuses on research and educational activities, in which the research and educational portfolios of researchers, professors, and staff are analyzed through subject classifications."
+      ],
+      "six_source_positions": [
+        {
+          "text": "Subject classification is a popular and useful aspect for academic database and data analysis.",
+          "xpath": "/article/body/sec[1]/p[1]",
+          "paragraph_index": 1,
+          "start_char_in_flattened_paragraph": 0,
+          "end_char_in_flattened_paragraph": 94
+        },
+        {
+          "text": "Academic resources, such as research articles, journals, conference proceedings, books, field samples, software, and various electronic materials, are organized by subject classifications in the general or domain-specific approach.",
+          "xpath": "/article/body/sec[1]/p[1]",
+          "paragraph_index": 1,
+          "start_char_in_flattened_paragraph": 95,
+          "end_char_in_flattened_paragraph": 326
+        },
+        {
+          "text": "University libraries, institutional resource centers, and research labs organize their research resources in an efficient manner to gain easy access to these resources when necessary.",
+          "xpath": "/article/body/sec[1]/p[1]",
+          "paragraph_index": 1,
+          "start_char_in_flattened_paragraph": 327,
+          "end_char_in_flattened_paragraph": 510
+        },
+        {
+          "text": "Research funding agencies manage their applicants, projects, and reports by classifying research subjects, which are often diversified and transformed to reflect on the current research landscape.",
+          "xpath": "/article/body/sec[1]/p[1]",
+          "paragraph_index": 1,
+          "start_char_in_flattened_paragraph": 511,
+          "end_char_in_flattened_paragraph": 707
+        },
+        {
+          "text": "Academic fields are fundamental concepts of academic classifications for organizing academic materials.",
+          "xpath": "/article/body/sec[1]/p[1]",
+          "paragraph_index": 1,
+          "start_char_in_flattened_paragraph": 708,
+          "end_char_in_flattened_paragraph": 811
+        },
+        {
+          "text": "From analysis perspectives, institutional research (IR) focuses on research and educational activities, in which the research and educational portfolios of researchers, professors, and staff are analyzed through subject classifications.",
+          "xpath": "/article/body/sec[1]/p[1]",
+          "paragraph_index": 1,
+          "start_char_in_flattened_paragraph": 812,
+          "end_char_in_flattened_paragraph": 1048
+        }
+      ],
+      "input_text": "Subject classification is a popular and useful aspect for academic database and data analysis. Academic resources, such as research articles, journals, conference proceedings, books, field samples, software, and various electronic materials, are organized by subject classifications in the general or domain-specific approach. University libraries, institutional resource centers, and research labs organize their research resources in an efficient manner to gain easy access to these resources when necessary. Research funding agencies manage their applicants, projects, and reports by classifying research subjects, which are often diversified and transformed to reflect on the current research landscape. Academic fields are fundamental concepts of academic classifications for organizing academic materials.",
+      "sixth_sentence": "From analysis perspectives, institutional research (IR) focuses on research and educational activities, in which the research and educational portfolios of researchers, professors, and staff are analyzed through subject classifications.",
+      "input_changed_from_old": false,
+      "target_changed_from_old": false
+    },
+    {
+      "selection_order": 9,
+      "pmcid": "PMC7805833",
+      "xml_path": "/Users/vivian_hsu/Desktop/Capstone/bpe-merge-order/data/europe_pmc_pilot/raw/PMC7805833.xml",
+      "xml_sha256": "f118da7b85ed294bf5db63287851ba9b5b64756375f91a7c910db75d6d517c0d",
+      "decision": "include",
+      "exclusion_code": null,
+      "exclusion_reason": null,
+      "six_sentences": [
+        "Using robotic companions in unconstrained, domestic environments poses new challenges to the task of object recognition and learning.",
+        "In this work, we focus on such use-cases in which one cannot draw from a large set of images for training since the presentation of particular objects might occur infrequently and only over short periods.",
+        "Moreover, consumer-oriented robotic hardware usually does not allow for computationally expensive training (e.g., state-of-the-art deep learning networks).",
+        "The learning needs to be fast enough, in the range of seconds rather than hours, to be of value for the user.",
+        "Additionally, the objects that will have to be learned are not necessarily known upfront and might only get presented over time rather than all at once, which limits the possibility of pre-training networks.",
+        "New developments in deep learning, computer vision and robotics research together with the availability of highly integrated, powerful mobile computer systems has made it possible to create robotic systems that can operate in private households."
+      ],
+      "six_source_positions": [
+        {
+          "text": "Using robotic companions in unconstrained, domestic environments poses new challenges to the task of object recognition and learning.",
+          "xpath": "/article/body/sec[1]/p[1]",
+          "paragraph_index": 1,
+          "start_char_in_flattened_paragraph": 0,
+          "end_char_in_flattened_paragraph": 133
+        },
+        {
+          "text": "In this work, we focus on such use-cases in which one cannot draw from a large set of images for training since the presentation of particular objects might occur infrequently and only over short periods.",
+          "xpath": "/article/body/sec[1]/p[1]",
+          "paragraph_index": 1,
+          "start_char_in_flattened_paragraph": 134,
+          "end_char_in_flattened_paragraph": 338
+        },
+        {
+          "text": "Moreover, consumer-oriented robotic hardware usually does not allow for computationally expensive training (e.g., state-of-the-art deep learning networks).",
+          "xpath": "/article/body/sec[1]/p[1]",
+          "paragraph_index": 1,
+          "start_char_in_flattened_paragraph": 339,
+          "end_char_in_flattened_paragraph": 494
+        },
+        {
+          "text": "The learning needs to be fast enough, in the range of seconds rather than hours, to be of value for the user.",
+          "xpath": "/article/body/sec[1]/p[1]",
+          "paragraph_index": 1,
+          "start_char_in_flattened_paragraph": 495,
+          "end_char_in_flattened_paragraph": 604
+        },
+        {
+          "text": "Additionally, the objects that will have to be learned are not necessarily known upfront and might only get presented over time rather than all at once, which limits the possibility of pre-training networks.",
+          "xpath": "/article/body/sec[1]/p[1]",
+          "paragraph_index": 1,
+          "start_char_in_flattened_paragraph": 605,
+          "end_char_in_flattened_paragraph": 812
+        },
+        {
+          "text": "New developments in deep learning, computer vision and robotics research together with the availability of highly integrated, powerful mobile computer systems has made it possible to create robotic systems that can operate in private households.",
+          "xpath": "/article/body/sec[1]/p[2]",
+          "paragraph_index": 2,
+          "start_char_in_flattened_paragraph": 0,
+          "end_char_in_flattened_paragraph": 245
+        }
+      ],
+      "input_text": "Using robotic companions in unconstrained, domestic environments poses new challenges to the task of object recognition and learning. In this work, we focus on such use-cases in which one cannot draw from a large set of images for training since the presentation of particular objects might occur infrequently and only over short periods. Moreover, consumer-oriented robotic hardware usually does not allow for computationally expensive training (e.g., state-of-the-art deep learning networks). The learning needs to be fast enough, in the range of seconds rather than hours, to be of value for the user. Additionally, the objects that will have to be learned are not necessarily known upfront and might only get presented over time rather than all at once, which limits the possibility of pre-training networks.",
+      "sixth_sentence": "New developments in deep learning, computer vision and robotics research together with the availability of highly integrated, powerful mobile computer systems has made it possible to create robotic systems that can operate in private households.",
+      "input_changed_from_old": false,
+      "target_changed_from_old": false
+    },
+    {
+      "selection_order": 10,
+      "pmcid": "PMC7806082",
+      "xml_path": "/Users/vivian_hsu/Desktop/Capstone/bpe-merge-order/data/europe_pmc_pilot/raw/PMC7806082.xml",
+      "xml_sha256": "607a2c11984a1316659b8a46ca1255d2a43120cf77b7cf75bfec96313b4244a8",
+      "decision": "include",
+      "exclusion_code": null,
+      "exclusion_reason": null,
+      "six_sentences": [
+        "A technology of “origami” that creates a 3D structure by folding a flat sheet such as a paper and a metal plate has been studied by many researchers.",
+        "In recent years, new techniques related to origami have been widely studied in the field of engineering.",
+        "By folding a large sheet into a small piece, the sheet object is hardly carried to different places to be extended into complex 3D structures.",
+        "For example, space structures (Torisaka et al., 2016), solar cell arrays (Natori et al., 2013), protein origami (Dobson, 2003), and folding of insect wings (Saito et al., 2017) are the successful applications of origami studies.",
+        "On the other hand, the research on self-folding mechanism has been actively conducted by utilizing physical properties of materials.",
+        "Examples of such prior studies are found in heat-shrinkable polymer (Liu et al., 2012, 2017; Felton et al., 2014) and paper (Shigemune et al., 2016, 2017)."
+      ],
+      "six_source_positions": [
+        {
+          "text": "A technology of “origami” that creates a 3D structure by folding a flat sheet such as a paper and a metal plate has been studied by many researchers.",
+          "xpath": "/article/body/sec[1]/p[1]",
+          "paragraph_index": 1,
+          "start_char_in_flattened_paragraph": 0,
+          "end_char_in_flattened_paragraph": 149
+        },
+        {
+          "text": "In recent years, new techniques related to origami have been widely studied in the field of engineering.",
+          "xpath": "/article/body/sec[1]/p[1]",
+          "paragraph_index": 1,
+          "start_char_in_flattened_paragraph": 150,
+          "end_char_in_flattened_paragraph": 254
+        },
+        {
+          "text": "By folding a large sheet into a small piece, the sheet object is hardly carried to different places to be extended into complex 3D structures.",
+          "xpath": "/article/body/sec[1]/p[1]",
+          "paragraph_index": 1,
+          "start_char_in_flattened_paragraph": 255,
+          "end_char_in_flattened_paragraph": 397
+        },
+        {
+          "text": "For example, space structures (Torisaka et al., 2016), solar cell arrays (Natori et al., 2013), protein origami (Dobson, 2003), and folding of insect wings (Saito et al., 2017) are the successful applications of origami studies.",
+          "xpath": "/article/body/sec[1]/p[1]",
+          "paragraph_index": 1,
+          "start_char_in_flattened_paragraph": 398,
+          "end_char_in_flattened_paragraph": 626
+        },
+        {
+          "text": "On the other hand, the research on self-folding mechanism has been actively conducted by utilizing physical properties of materials.",
+          "xpath": "/article/body/sec[1]/p[2]",
+          "paragraph_index": 2,
+          "start_char_in_flattened_paragraph": 0,
+          "end_char_in_flattened_paragraph": 132
+        },
+        {
+          "text": "Examples of such prior studies are found in heat-shrinkable polymer (Liu et al., 2012, 2017; Felton et al., 2014) and paper (Shigemune et al., 2016, 2017).",
+          "xpath": "/article/body/sec[1]/p[2]",
+          "paragraph_index": 2,
+          "start_char_in_flattened_paragraph": 133,
+          "end_char_in_flattened_paragraph": 288
+        }
+      ],
+      "input_text": "A technology of “origami” that creates a 3D structure by folding a flat sheet such as a paper and a metal plate has been studied by many researchers. In recent years, new techniques related to origami have been widely studied in the field of engineering. By folding a large sheet into a small piece, the sheet object is hardly carried to different places to be extended into complex 3D structures. For example, space structures (Torisaka et al., 2016), solar cell arrays (Natori et al., 2013), protein origami (Dobson, 2003), and folding of insect wings (Saito et al., 2017) are the successful applications of origami studies. On the other hand, the research on self-folding mechanism has been actively conducted by utilizing physical properties of materials.",
+      "sixth_sentence": "Examples of such prior studies are found in heat-shrinkable polymer (Liu et al., 2012, 2017; Felton et al., 2014) and paper (Shigemune et al., 2016, 2017).",
+      "input_changed_from_old": true,
+      "target_changed_from_old": true
+    },
+    {
+      "selection_order": 11,
+      "pmcid": "PMC7805922",
+      "xml_path": "/Users/vivian_hsu/Desktop/Capstone/bpe-merge-order/data/europe_pmc_pilot/raw/PMC7805922.xml",
+      "xml_sha256": "2dbc85d4afd69965217638b16ec0c7b68fe83bc3d30db2afd1a907070966af7a",
+      "decision": "include",
+      "exclusion_code": null,
+      "exclusion_reason": null,
+      "six_sentences": [
+        "Reinforcement Learning (RL) algorithms have achieved impressive successes during the last few years, from learning to play games from pixels to beating professional Go players, but at the expense of enormous interaction time with the system.",
+        "For example, they required up to 38 days of game-play (real-time) for Atari 2,600 games (Mnih et al., 2015), 4.8 million games for Go (Silver et al., 2016), or about 100 h of simulation time (more if real-time) to train a 9-DOF mannequin to walk (Heess et al., 2017).",
+        "This makes these algorithms suitable only for policy synthesis, i.e., creating a policy for a robot in simulation, but impossible to use for online learning in robotics, that is, adapting online to a new system or a new situation.",
+        "By the term “situation” we refer to any perturbation in the dynamics of the robot caused by physical damages, faults in the actuators or environmental changes, such as terrain condition.",
+        "Model-based reinforcement learning algorithms (MBRL) allow robots to learn policies with less interaction time by alternating between learning a dynamical model of the robot from the observed data, and using that model either for finding a policy (Deisenroth and Rasmussen, 2011; Chatzilygeroudis et al., 2017; Kaushik et al., 2018) or for model predictive control (Williams et al., 2017; Chua et al., 2018; Nagabandi et al., 2019).",
+        "Since these algorithms optimize a policy (or plan an action) using the learned dynamical model, they can be highly data-efficient."
+      ],
+      "six_source_positions": [
+        {
+          "text": "Reinforcement Learning (RL) algorithms have achieved impressive successes during the last few years, from learning to play games from pixels to beating professional Go players, but at the expense of enormous interaction time with the system.",
+          "xpath": "/article/body/sec[1]/p[1]",
+          "paragraph_index": 1,
+          "start_char_in_flattened_paragraph": 0,
+          "end_char_in_flattened_paragraph": 241
+        },
+        {
+          "text": "For example, they required up to 38 days of game-play (real-time) for Atari 2,600 games (Mnih et al., 2015), 4.8 million games for Go (Silver et al., 2016), or about 100 h of simulation time (more if real-time) to train a 9-DOF mannequin to walk (Heess et al., 2017).",
+          "xpath": "/article/body/sec[1]/p[1]",
+          "paragraph_index": 1,
+          "start_char_in_flattened_paragraph": 242,
+          "end_char_in_flattened_paragraph": 509
+        },
+        {
+          "text": "This makes these algorithms suitable only for policy synthesis, i.e., creating a policy for a robot in simulation, but impossible to use for online learning in robotics, that is, adapting online to a new system or a new situation.",
+          "xpath": "/article/body/sec[1]/p[1]",
+          "paragraph_index": 1,
+          "start_char_in_flattened_paragraph": 510,
+          "end_char_in_flattened_paragraph": 740
+        },
+        {
+          "text": "By the term “situation” we refer to any perturbation in the dynamics of the robot caused by physical damages, faults in the actuators or environmental changes, such as terrain condition.",
+          "xpath": "/article/body/sec[1]/p[1]",
+          "paragraph_index": 1,
+          "start_char_in_flattened_paragraph": 741,
+          "end_char_in_flattened_paragraph": 927
+        },
+        {
+          "text": "Model-based reinforcement learning algorithms (MBRL) allow robots to learn policies with less interaction time by alternating between learning a dynamical model of the robot from the observed data, and using that model either for finding a policy (Deisenroth and Rasmussen, 2011; Chatzilygeroudis et al., 2017; Kaushik et al., 2018) or for model predictive control (Williams et al., 2017; Chua et al., 2018; Nagabandi et al., 2019).",
+          "xpath": "/article/body/sec[1]/p[2]",
+          "paragraph_index": 2,
+          "start_char_in_flattened_paragraph": 0,
+          "end_char_in_flattened_paragraph": 432
+        },
+        {
+          "text": "Since these algorithms optimize a policy (or plan an action) using the learned dynamical model, they can be highly data-efficient.",
+          "xpath": "/article/body/sec[1]/p[2]",
+          "paragraph_index": 2,
+          "start_char_in_flattened_paragraph": 433,
+          "end_char_in_flattened_paragraph": 563
+        }
+      ],
+      "input_text": "Reinforcement Learning (RL) algorithms have achieved impressive successes during the last few years, from learning to play games from pixels to beating professional Go players, but at the expense of enormous interaction time with the system. For example, they required up to 38 days of game-play (real-time) for Atari 2,600 games (Mnih et al., 2015), 4.8 million games for Go (Silver et al., 2016), or about 100 h of simulation time (more if real-time) to train a 9-DOF mannequin to walk (Heess et al., 2017). This makes these algorithms suitable only for policy synthesis, i.e., creating a policy for a robot in simulation, but impossible to use for online learning in robotics, that is, adapting online to a new system or a new situation. By the term “situation” we refer to any perturbation in the dynamics of the robot caused by physical damages, faults in the actuators or environmental changes, such as terrain condition. Model-based reinforcement learning algorithms (MBRL) allow robots to learn policies with less interaction time by alternating between learning a dynamical model of the robot from the observed data, and using that model either for finding a policy (Deisenroth and Rasmussen, 2011; Chatzilygeroudis et al., 2017; Kaushik et al., 2018) or for model predictive control (Williams et al., 2017; Chua et al., 2018; Nagabandi et al., 2019).",
+      "sixth_sentence": "Since these algorithms optimize a policy (or plan an action) using the learned dynamical model, they can be highly data-efficient.",
+      "input_changed_from_old": true,
+      "target_changed_from_old": false
+    },
+    {
+      "selection_order": 12,
+      "pmcid": "PMC7806115",
+      "xml_path": "/Users/vivian_hsu/Desktop/Capstone/bpe-merge-order/data/europe_pmc_pilot/raw/PMC7806115.xml",
+      "xml_sha256": "9cd0905c4f62d4fbfc035088a9f4ef81cd1f7c95621731f907951a80b4c45637",
+      "decision": "include",
+      "exclusion_code": null,
+      "exclusion_reason": null,
+      "six_sentences": [
+        "In recent years, the idea of human-robot cooperation, in which robots support human workers by undertaking exhausting or harmful subtasks of their work, is becoming more and more relevant.",
+        "If robots operating with high force levels have to share the same working environment with humans, it is of fundamental importance that they do not cause harm to the users.",
+        "A potential way of addressing this problem consists of designing soft robots in which conventional metal parts are replaced by highly compliant materials (Albu-Schaffer et al., 2008; Laschi et al., 2017).",
+        "Ideally, these soft materials must be able to sustain the structure of the robot, as well as to provide actuation and sensing capabilities.",
+        "Most of the current solutions to this problem are based on a combination of flexible structures, e.g., springs, pneumatic actuators, electric motors (Robinson et al., 1999; Pratt and Krupp, 2004; Pan et al., 2015).",
+        "A viable alternative for the design of soft robots is represented by smart materials like shape memory alloys (Laschi et al., 2012; Cianchetti et al., 2015; Villoslada et al., 2015), shape memory polymers (Shen et al., 2016), or electro-active polymers (Shintake et al., 2015; Godaba et al., 2016)."
+      ],
+      "six_source_positions": [
+        {
+          "text": "In recent years, the idea of human-robot cooperation, in which robots support human workers by undertaking exhausting or harmful subtasks of their work, is becoming more and more relevant.",
+          "xpath": "/article/body/sec[1]/p[1]",
+          "paragraph_index": 1,
+          "start_char_in_flattened_paragraph": 0,
+          "end_char_in_flattened_paragraph": 188
+        },
+        {
+          "text": "If robots operating with high force levels have to share the same working environment with humans, it is of fundamental importance that they do not cause harm to the users.",
+          "xpath": "/article/body/sec[1]/p[1]",
+          "paragraph_index": 1,
+          "start_char_in_flattened_paragraph": 189,
+          "end_char_in_flattened_paragraph": 361
+        },
+        {
+          "text": "A potential way of addressing this problem consists of designing soft robots in which conventional metal parts are replaced by highly compliant materials (Albu-Schaffer et al., 2008; Laschi et al., 2017).",
+          "xpath": "/article/body/sec[1]/p[1]",
+          "paragraph_index": 1,
+          "start_char_in_flattened_paragraph": 362,
+          "end_char_in_flattened_paragraph": 566
+        },
+        {
+          "text": "Ideally, these soft materials must be able to sustain the structure of the robot, as well as to provide actuation and sensing capabilities.",
+          "xpath": "/article/body/sec[1]/p[1]",
+          "paragraph_index": 1,
+          "start_char_in_flattened_paragraph": 567,
+          "end_char_in_flattened_paragraph": 706
+        },
+        {
+          "text": "Most of the current solutions to this problem are based on a combination of flexible structures, e.g., springs, pneumatic actuators, electric motors (Robinson et al., 1999; Pratt and Krupp, 2004; Pan et al., 2015).",
+          "xpath": "/article/body/sec[1]/p[1]",
+          "paragraph_index": 1,
+          "start_char_in_flattened_paragraph": 707,
+          "end_char_in_flattened_paragraph": 921
+        },
+        {
+          "text": "A viable alternative for the design of soft robots is represented by smart materials like shape memory alloys (Laschi et al., 2012; Cianchetti et al., 2015; Villoslada et al., 2015), shape memory polymers (Shen et al., 2016), or electro-active polymers (Shintake et al., 2015; Godaba et al., 2016).",
+          "xpath": "/article/body/sec[1]/p[1]",
+          "paragraph_index": 1,
+          "start_char_in_flattened_paragraph": 922,
+          "end_char_in_flattened_paragraph": 1220
+        }
+      ],
+      "input_text": "In recent years, the idea of human-robot cooperation, in which robots support human workers by undertaking exhausting or harmful subtasks of their work, is becoming more and more relevant. If robots operating with high force levels have to share the same working environment with humans, it is of fundamental importance that they do not cause harm to the users. A potential way of addressing this problem consists of designing soft robots in which conventional metal parts are replaced by highly compliant materials (Albu-Schaffer et al., 2008; Laschi et al., 2017). Ideally, these soft materials must be able to sustain the structure of the robot, as well as to provide actuation and sensing capabilities. Most of the current solutions to this problem are based on a combination of flexible structures, e.g., springs, pneumatic actuators, electric motors (Robinson et al., 1999; Pratt and Krupp, 2004; Pan et al., 2015).",
+      "sixth_sentence": "A viable alternative for the design of soft robots is represented by smart materials like shape memory alloys (Laschi et al., 2012; Cianchetti et al., 2015; Villoslada et al., 2015), shape memory polymers (Shen et al., 2016), or electro-active polymers (Shintake et al., 2015; Godaba et al., 2016).",
+      "input_changed_from_old": true,
+      "target_changed_from_old": true
+    },
+    {
+      "selection_order": 13,
+      "pmcid": "PMC7805860",
+      "xml_path": "/Users/vivian_hsu/Desktop/Capstone/bpe-merge-order/data/europe_pmc_pilot/raw/PMC7805860.xml",
+      "xml_sha256": "a21628a1133ad376069617d678472fd9320c82d9073bd65788eb026b9ebba1fb",
+      "decision": "include",
+      "exclusion_code": null,
+      "exclusion_reason": null,
+      "six_sentences": [
+        "The large-scale release of radionuclides from the Chornobyl Nuclear Power Plant (ChNPP) remains the most significant nuclear accident in the history of civil nuclear power generation.",
+        "During the 10 days of emissions from Reactor 4, approximately 11,780 PBq of radioactive material was released into the environment, including 1,700 PBq of 131I and 85 PBq of 137Cs (Gudiksen et al., 1988; Cort et al., 1998; Smith and Beresford, 2005, p. 12).",
+        "While the accident had far reaching environmental implications for a large area of Northern Europe, the area worst affected by the accident covers approximately 4,730 km2 across modern day Ukraine (2,600 km2) and Belarus (2,130 km2).",
+        "The area within Ukraine defines the Chornobyl Exclusion Zone (CEZ), which is an access controlled region, established in May 1986, designed to mitigate dose exposure to the public.",
+        "Restrictions on access are still in place to this day, although tourism permits are currently available as part of official guided tours.",
+        "In the decades since the accident, there have been significant advancements in remote/automated characterization technologies that were not available to the responding forces in April 1986."
+      ],
+      "six_source_positions": [
+        {
+          "text": "The large-scale release of radionuclides from the Chornobyl Nuclear Power Plant (ChNPP) remains the most significant nuclear accident in the history of civil nuclear power generation.",
+          "xpath": "/article/body/sec[1]/p[1]",
+          "paragraph_index": 1,
+          "start_char_in_flattened_paragraph": 0,
+          "end_char_in_flattened_paragraph": 183
+        },
+        {
+          "text": "During the 10 days of emissions from Reactor 4, approximately 11,780 PBq of radioactive material was released into the environment, including 1,700 PBq of 131I and 85 PBq of 137Cs (Gudiksen et al., 1988; Cort et al., 1998; Smith and Beresford, 2005, p. 12).",
+          "xpath": "/article/body/sec[1]/p[1]",
+          "paragraph_index": 1,
+          "start_char_in_flattened_paragraph": 184,
+          "end_char_in_flattened_paragraph": 441
+        },
+        {
+          "text": "While the accident had far reaching environmental implications for a large area of Northern Europe, the area worst affected by the accident covers approximately 4,730 km2 across modern day Ukraine (2,600 km2) and Belarus (2,130 km2).",
+          "xpath": "/article/body/sec[1]/p[1]",
+          "paragraph_index": 1,
+          "start_char_in_flattened_paragraph": 442,
+          "end_char_in_flattened_paragraph": 675
+        },
+        {
+          "text": "The area within Ukraine defines the Chornobyl Exclusion Zone (CEZ), which is an access controlled region, established in May 1986, designed to mitigate dose exposure to the public.",
+          "xpath": "/article/body/sec[1]/p[1]",
+          "paragraph_index": 1,
+          "start_char_in_flattened_paragraph": 676,
+          "end_char_in_flattened_paragraph": 856
+        },
+        {
+          "text": "Restrictions on access are still in place to this day, although tourism permits are currently available as part of official guided tours.",
+          "xpath": "/article/body/sec[1]/p[1]",
+          "paragraph_index": 1,
+          "start_char_in_flattened_paragraph": 857,
+          "end_char_in_flattened_paragraph": 994
+        },
+        {
+          "text": "In the decades since the accident, there have been significant advancements in remote/automated characterization technologies that were not available to the responding forces in April 1986.",
+          "xpath": "/article/body/sec[1]/p[2]",
+          "paragraph_index": 2,
+          "start_char_in_flattened_paragraph": 0,
+          "end_char_in_flattened_paragraph": 189
+        }
+      ],
+      "input_text": "The large-scale release of radionuclides from the Chornobyl Nuclear Power Plant (ChNPP) remains the most significant nuclear accident in the history of civil nuclear power generation. During the 10 days of emissions from Reactor 4, approximately 11,780 PBq of radioactive material was released into the environment, including 1,700 PBq of 131I and 85 PBq of 137Cs (Gudiksen et al., 1988; Cort et al., 1998; Smith and Beresford, 2005, p. 12). While the accident had far reaching environmental implications for a large area of Northern Europe, the area worst affected by the accident covers approximately 4,730 km2 across modern day Ukraine (2,600 km2) and Belarus (2,130 km2). The area within Ukraine defines the Chornobyl Exclusion Zone (CEZ), which is an access controlled region, established in May 1986, designed to mitigate dose exposure to the public. Restrictions on access are still in place to this day, although tourism permits are currently available as part of official guided tours.",
+      "sixth_sentence": "In the decades since the accident, there have been significant advancements in remote/automated characterization technologies that were not available to the responding forces in April 1986.",
+      "input_changed_from_old": true,
+      "target_changed_from_old": false
+    },
+    {
+      "selection_order": 14,
+      "pmcid": "PMC7805738",
+      "xml_path": "/Users/vivian_hsu/Desktop/Capstone/bpe-merge-order/data/europe_pmc_pilot/raw/PMC7805738.xml",
+      "xml_sha256": "3ccbb6f903bbee3864d0b02ba0129fed132f63f364e0f222c0be5037cde7f58d",
+      "decision": "include",
+      "exclusion_code": null,
+      "exclusion_reason": null,
+      "six_sentences": [
+        "Classrooms in the twenty-first century are slowly being transformed from frontal lectures halls filled with passive students, to collaborative small groups actively participating in project based learning (Helle et al., 2006; Kokotsaki et al., 2016).",
+        "Studies have shown that such active participatory learning is more effective in content retention (Al-Balushi and Al-Aamri, 2014) and engagement (Fernandes et al., 2014).",
+        "Thus, emphasis has been diverted to so-called twenty-first century skills (Crane, 2003; Saavedra and Opfer, 2012; Trilling and Fadel, 2012), with focus on the 4C super-skills, i.e., communication, collaboration, creativity, and critical thinking (Shulman, 1986; Kivunja, 2015).",
+        "This focus has created several new pedagogies, such as to provide students with the opportunity, within the classroom, to observe, imitate, and practice critical agency, and reflect upon it (ten Dam and Volman, 2004); collaborate by learning to share tasks and resources and be responsible for their tasks (Lai et al., 2017); engage in inter-, trans-, and cross-disciplinary approaches to promote creativity (Harris and de Bruin, 2018); and use project-based learning as the basis for improving communication skills (Saenab et al., 2018).",
+        "In higher education, the proliferation of massive online open courses (MOOCs) (Bozkurt et al., 2017) has not lived up to its initial expectation (Khalil and Ebner, 2014; Thomas and Thorpe, 2019).",
+        "However, the emergence of the “flipped classroom” paradigm (Gilboy et al., 2015; Schmidt and Ralph, 2016), in which students learn the material at home via on-line learning platforms and then discuss and practice it in small groups in the classroom, has been shown to be highly effective (Chen and Chen, 2015; Thomas and Thorpe, 2019)."
+      ],
+      "six_source_positions": [
+        {
+          "text": "Classrooms in the twenty-first century are slowly being transformed from frontal lectures halls filled with passive students, to collaborative small groups actively participating in project based learning (Helle et al., 2006; Kokotsaki et al., 2016).",
+          "xpath": "/article/body/sec[1]/p[1]",
+          "paragraph_index": 1,
+          "start_char_in_flattened_paragraph": 0,
+          "end_char_in_flattened_paragraph": 250
+        },
+        {
+          "text": "Studies have shown that such active participatory learning is more effective in content retention (Al-Balushi and Al-Aamri, 2014) and engagement (Fernandes et al., 2014).",
+          "xpath": "/article/body/sec[1]/p[1]",
+          "paragraph_index": 1,
+          "start_char_in_flattened_paragraph": 251,
+          "end_char_in_flattened_paragraph": 421
+        },
+        {
+          "text": "Thus, emphasis has been diverted to so-called twenty-first century skills (Crane, 2003; Saavedra and Opfer, 2012; Trilling and Fadel, 2012), with focus on the 4C super-skills, i.e., communication, collaboration, creativity, and critical thinking (Shulman, 1986; Kivunja, 2015).",
+          "xpath": "/article/body/sec[1]/p[1]",
+          "paragraph_index": 1,
+          "start_char_in_flattened_paragraph": 422,
+          "end_char_in_flattened_paragraph": 699
+        },
+        {
+          "text": "This focus has created several new pedagogies, such as to provide students with the opportunity, within the classroom, to observe, imitate, and practice critical agency, and reflect upon it (ten Dam and Volman, 2004); collaborate by learning to share tasks and resources and be responsible for their tasks (Lai et al., 2017); engage in inter-, trans-, and cross-disciplinary approaches to promote creativity (Harris and de Bruin, 2018); and use project-based learning as the basis for improving communication skills (Saenab et al., 2018).",
+          "xpath": "/article/body/sec[1]/p[1]",
+          "paragraph_index": 1,
+          "start_char_in_flattened_paragraph": 700,
+          "end_char_in_flattened_paragraph": 1238
+        },
+        {
+          "text": "In higher education, the proliferation of massive online open courses (MOOCs) (Bozkurt et al., 2017) has not lived up to its initial expectation (Khalil and Ebner, 2014; Thomas and Thorpe, 2019).",
+          "xpath": "/article/body/sec[1]/p[2]",
+          "paragraph_index": 2,
+          "start_char_in_flattened_paragraph": 0,
+          "end_char_in_flattened_paragraph": 195
+        },
+        {
+          "text": "However, the emergence of the “flipped classroom” paradigm (Gilboy et al., 2015; Schmidt and Ralph, 2016), in which students learn the material at home via on-line learning platforms and then discuss and practice it in small groups in the classroom, has been shown to be highly effective (Chen and Chen, 2015; Thomas and Thorpe, 2019).",
+          "xpath": "/article/body/sec[1]/p[2]",
+          "paragraph_index": 2,
+          "start_char_in_flattened_paragraph": 196,
+          "end_char_in_flattened_paragraph": 531
+        }
+      ],
+      "input_text": "Classrooms in the twenty-first century are slowly being transformed from frontal lectures halls filled with passive students, to collaborative small groups actively participating in project based learning (Helle et al., 2006; Kokotsaki et al., 2016). Studies have shown that such active participatory learning is more effective in content retention (Al-Balushi and Al-Aamri, 2014) and engagement (Fernandes et al., 2014). Thus, emphasis has been diverted to so-called twenty-first century skills (Crane, 2003; Saavedra and Opfer, 2012; Trilling and Fadel, 2012), with focus on the 4C super-skills, i.e., communication, collaboration, creativity, and critical thinking (Shulman, 1986; Kivunja, 2015). This focus has created several new pedagogies, such as to provide students with the opportunity, within the classroom, to observe, imitate, and practice critical agency, and reflect upon it (ten Dam and Volman, 2004); collaborate by learning to share tasks and resources and be responsible for their tasks (Lai et al., 2017); engage in inter-, trans-, and cross-disciplinary approaches to promote creativity (Harris and de Bruin, 2018); and use project-based learning as the basis for improving communication skills (Saenab et al., 2018). In higher education, the proliferation of massive online open courses (MOOCs) (Bozkurt et al., 2017) has not lived up to its initial expectation (Khalil and Ebner, 2014; Thomas and Thorpe, 2019).",
+      "sixth_sentence": "However, the emergence of the “flipped classroom” paradigm (Gilboy et al., 2015; Schmidt and Ralph, 2016), in which students learn the material at home via on-line learning platforms and then discuss and practice it in small groups in the classroom, has been shown to be highly effective (Chen and Chen, 2015; Thomas and Thorpe, 2019).",
+      "input_changed_from_old": true,
+      "target_changed_from_old": true
+    },
+    {
+      "selection_order": 15,
+      "pmcid": "PMC7806008",
+      "xml_path": "/Users/vivian_hsu/Desktop/Capstone/bpe-merge-order/data/europe_pmc_pilot/raw/PMC7806008.xml",
+      "xml_sha256": "6bcdbe21967655df53c134498b65a82319f627a74f629270d24569f3e32d663d",
+      "decision": "include",
+      "exclusion_code": null,
+      "exclusion_reason": null,
+      "six_sentences": [
+        "Soft wearables for human assistance and augmentation can provide muscle support for lower and upper limbs (Galiana et al., 2012; Asbeck et al., 2014; Natali et al., 2019), decrease the metabolic cost of running and walking (Kim et al., 2019), provide haptic feedback (Hinchet et al., 2018; Takahashi et al., 2019).",
+        "They should be comfortable to wear and discretely integrated into clothing, however most development on wearable robots has been carried out to date using electromagnetic motors.",
+        "It is becoming clear that intrinsically soft actuators are required for fully-integrated soft wearables.",
+        "Of the different classes of soft actuators, soft fluidic actuators are the most widely adopted for wearables, due to their robustness, simple fabrication, and high energy density.",
+        "These actuators generally consist of a chamber inflated with a pressurized fluid.",
+        "Examples include bellows-shaped pneumatic actuators (“pneu-nets”) (Mosadegh et al., 2014; Yap et al., 2015), fiber-reinforced fluidic actuators (Polygerinos et al., 2014; Cacucciolo et al., 2016), and McKibben actuators (Wehner et al., 2013)."
+      ],
+      "six_source_positions": [
+        {
+          "text": "Soft wearables for human assistance and augmentation can provide muscle support for lower and upper limbs (Galiana et al., 2012; Asbeck et al., 2014; Natali et al., 2019), decrease the metabolic cost of running and walking (Kim et al., 2019), provide haptic feedback (Hinchet et al., 2018; Takahashi et al., 2019).",
+          "xpath": "/article/body/sec[1]/p[1]",
+          "paragraph_index": 1,
+          "start_char_in_flattened_paragraph": 0,
+          "end_char_in_flattened_paragraph": 314
+        },
+        {
+          "text": "They should be comfortable to wear and discretely integrated into clothing, however most development on wearable robots has been carried out to date using electromagnetic motors.",
+          "xpath": "/article/body/sec[1]/p[1]",
+          "paragraph_index": 1,
+          "start_char_in_flattened_paragraph": 315,
+          "end_char_in_flattened_paragraph": 493
+        },
+        {
+          "text": "It is becoming clear that intrinsically soft actuators are required for fully-integrated soft wearables.",
+          "xpath": "/article/body/sec[1]/p[1]",
+          "paragraph_index": 1,
+          "start_char_in_flattened_paragraph": 494,
+          "end_char_in_flattened_paragraph": 598
+        },
+        {
+          "text": "Of the different classes of soft actuators, soft fluidic actuators are the most widely adopted for wearables, due to their robustness, simple fabrication, and high energy density.",
+          "xpath": "/article/body/sec[1]/p[1]",
+          "paragraph_index": 1,
+          "start_char_in_flattened_paragraph": 599,
+          "end_char_in_flattened_paragraph": 778
+        },
+        {
+          "text": "These actuators generally consist of a chamber inflated with a pressurized fluid.",
+          "xpath": "/article/body/sec[1]/p[1]",
+          "paragraph_index": 1,
+          "start_char_in_flattened_paragraph": 779,
+          "end_char_in_flattened_paragraph": 860
+        },
+        {
+          "text": "Examples include bellows-shaped pneumatic actuators (“pneu-nets”) (Mosadegh et al., 2014; Yap et al., 2015), fiber-reinforced fluidic actuators (Polygerinos et al., 2014; Cacucciolo et al., 2016), and McKibben actuators (Wehner et al., 2013).",
+          "xpath": "/article/body/sec[1]/p[1]",
+          "paragraph_index": 1,
+          "start_char_in_flattened_paragraph": 861,
+          "end_char_in_flattened_paragraph": 1103
+        }
+      ],
+      "input_text": "Soft wearables for human assistance and augmentation can provide muscle support for lower and upper limbs (Galiana et al., 2012; Asbeck et al., 2014; Natali et al., 2019), decrease the metabolic cost of running and walking (Kim et al., 2019), provide haptic feedback (Hinchet et al., 2018; Takahashi et al., 2019). They should be comfortable to wear and discretely integrated into clothing, however most development on wearable robots has been carried out to date using electromagnetic motors. It is becoming clear that intrinsically soft actuators are required for fully-integrated soft wearables. Of the different classes of soft actuators, soft fluidic actuators are the most widely adopted for wearables, due to their robustness, simple fabrication, and high energy density. These actuators generally consist of a chamber inflated with a pressurized fluid.",
+      "sixth_sentence": "Examples include bellows-shaped pneumatic actuators (“pneu-nets”) (Mosadegh et al., 2014; Yap et al., 2015), fiber-reinforced fluidic actuators (Polygerinos et al., 2014; Cacucciolo et al., 2016), and McKibben actuators (Wehner et al., 2013).",
+      "input_changed_from_old": true,
+      "target_changed_from_old": true
+    },
+    {
+      "selection_order": 16,
+      "pmcid": "PMC7805868",
+      "xml_path": "/Users/vivian_hsu/Desktop/Capstone/bpe-merge-order/data/europe_pmc_pilot/raw/PMC7805868.xml",
+      "xml_sha256": "1a469166065f637d3e4b1600b21d1893523bd53661ae930533de667e4f49b0be",
+      "decision": "include",
+      "exclusion_code": null,
+      "exclusion_reason": null,
+      "six_sentences": [
+        "Percutaneous Nephrolithotomy (PCNL) is the standard of care to treat kidney stones larger than 2 cm.",
+        "The procedure involves two distinct steps.",
+        "First, the surgeon establishes access to the kidney by puncturing the skin of the patient with a needle, like in Figure 1A.",
+        "The location of the puncture is determined by using 2-dimensional fluoroscopic imaging to triangulate the location of the kidney.",
+        "Once the access is established, the opening is dilated to allow the surgeon to insert a nephroscope with a grasper into the kidney, as shown in Figure 1B.",
+        "Using the tools the stones are removed one at a time."
+      ],
+      "six_source_positions": [
+        {
+          "text": "Percutaneous Nephrolithotomy (PCNL) is the standard of care to treat kidney stones larger than 2 cm.",
+          "xpath": "/article/body/sec[1]/p[1]",
+          "paragraph_index": 1,
+          "start_char_in_flattened_paragraph": 0,
+          "end_char_in_flattened_paragraph": 100
+        },
+        {
+          "text": "The procedure involves two distinct steps.",
+          "xpath": "/article/body/sec[1]/p[1]",
+          "paragraph_index": 1,
+          "start_char_in_flattened_paragraph": 101,
+          "end_char_in_flattened_paragraph": 143
+        },
+        {
+          "text": "First, the surgeon establishes access to the kidney by puncturing the skin of the patient with a needle, like in Figure 1A.",
+          "xpath": "/article/body/sec[1]/p[1]",
+          "paragraph_index": 1,
+          "start_char_in_flattened_paragraph": 144,
+          "end_char_in_flattened_paragraph": 267
+        },
+        {
+          "text": "The location of the puncture is determined by using 2-dimensional fluoroscopic imaging to triangulate the location of the kidney.",
+          "xpath": "/article/body/sec[1]/p[1]",
+          "paragraph_index": 1,
+          "start_char_in_flattened_paragraph": 268,
+          "end_char_in_flattened_paragraph": 397
+        },
+        {
+          "text": "Once the access is established, the opening is dilated to allow the surgeon to insert a nephroscope with a grasper into the kidney, as shown in Figure 1B.",
+          "xpath": "/article/body/sec[1]/p[1]",
+          "paragraph_index": 1,
+          "start_char_in_flattened_paragraph": 398,
+          "end_char_in_flattened_paragraph": 552
+        },
+        {
+          "text": "Using the tools the stones are removed one at a time.",
+          "xpath": "/article/body/sec[1]/p[1]",
+          "paragraph_index": 1,
+          "start_char_in_flattened_paragraph": 553,
+          "end_char_in_flattened_paragraph": 606
+        }
+      ],
+      "input_text": "Percutaneous Nephrolithotomy (PCNL) is the standard of care to treat kidney stones larger than 2 cm. The procedure involves two distinct steps. First, the surgeon establishes access to the kidney by puncturing the skin of the patient with a needle, like in Figure 1A. The location of the puncture is determined by using 2-dimensional fluoroscopic imaging to triangulate the location of the kidney. Once the access is established, the opening is dilated to allow the surgeon to insert a nephroscope with a grasper into the kidney, as shown in Figure 1B.",
+      "sixth_sentence": "Using the tools the stones are removed one at a time.",
+      "input_changed_from_old": true,
+      "target_changed_from_old": false
+    },
+    {
+      "selection_order": 17,
+      "pmcid": "PMC7805724",
+      "xml_path": "/Users/vivian_hsu/Desktop/Capstone/bpe-merge-order/data/europe_pmc_pilot/raw/PMC7805724.xml",
+      "xml_sha256": "f4103a55eb97f615104fae15507b141e5fb42d09b4188e7d8ecebaf8a422447e",
+      "decision": "include",
+      "exclusion_code": null,
+      "exclusion_reason": null,
+      "six_sentences": [
+        "Speech recognition errors are significant in practical tasks provided by service robots.",
+        "In numerous types of human-robot interactions, it is assumed that the human user will initiate an interaction by giving a spoken command to a service robot at home, in an office, or in a factory.",
+        "Many studies in the area of robotics and natural language processing (NLP) (Thomason et al., 2015; Misra et al., 2016; Xu et al., 2017) have been conducted to enable a robot to understand the linguistic commands given by human users.",
+        "The spoken commands given by a human user are conventionally recognized and understood by a robot in the following manner: First, the robot recognizes a sentence spoken by a human user by applying an automatic speech recognition (ASR) system such as Google Cloud Speech-to-Text API1, CMU Sphinx2, or Julius3.",
+        "Next, the robot applies syntactic and semantic parsing and determines the sequence of commands that it is expected to carry out.",
+        "The former part corresponds to the ASR task, and the latter corresponds to the NLP task."
+      ],
+      "six_source_positions": [
+        {
+          "text": "Speech recognition errors are significant in practical tasks provided by service robots.",
+          "xpath": "/article/body/sec[1]/p[1]",
+          "paragraph_index": 1,
+          "start_char_in_flattened_paragraph": 0,
+          "end_char_in_flattened_paragraph": 88
+        },
+        {
+          "text": "In numerous types of human-robot interactions, it is assumed that the human user will initiate an interaction by giving a spoken command to a service robot at home, in an office, or in a factory.",
+          "xpath": "/article/body/sec[1]/p[1]",
+          "paragraph_index": 1,
+          "start_char_in_flattened_paragraph": 89,
+          "end_char_in_flattened_paragraph": 284
+        },
+        {
+          "text": "Many studies in the area of robotics and natural language processing (NLP) (Thomason et al., 2015; Misra et al., 2016; Xu et al., 2017) have been conducted to enable a robot to understand the linguistic commands given by human users.",
+          "xpath": "/article/body/sec[1]/p[1]",
+          "paragraph_index": 1,
+          "start_char_in_flattened_paragraph": 285,
+          "end_char_in_flattened_paragraph": 518
+        },
+        {
+          "text": "The spoken commands given by a human user are conventionally recognized and understood by a robot in the following manner: First, the robot recognizes a sentence spoken by a human user by applying an automatic speech recognition (ASR) system such as Google Cloud Speech-to-Text API1, CMU Sphinx2, or Julius3.",
+          "xpath": "/article/body/sec[1]/p[2]",
+          "paragraph_index": 2,
+          "start_char_in_flattened_paragraph": 0,
+          "end_char_in_flattened_paragraph": 308
+        },
+        {
+          "text": "Next, the robot applies syntactic and semantic parsing and determines the sequence of commands that it is expected to carry out.",
+          "xpath": "/article/body/sec[1]/p[2]",
+          "paragraph_index": 2,
+          "start_char_in_flattened_paragraph": 309,
+          "end_char_in_flattened_paragraph": 437
+        },
+        {
+          "text": "The former part corresponds to the ASR task, and the latter corresponds to the NLP task.",
+          "xpath": "/article/body/sec[1]/p[2]",
+          "paragraph_index": 2,
+          "start_char_in_flattened_paragraph": 438,
+          "end_char_in_flattened_paragraph": 526
+        }
+      ],
+      "input_text": "Speech recognition errors are significant in practical tasks provided by service robots. In numerous types of human-robot interactions, it is assumed that the human user will initiate an interaction by giving a spoken command to a service robot at home, in an office, or in a factory. Many studies in the area of robotics and natural language processing (NLP) (Thomason et al., 2015; Misra et al., 2016; Xu et al., 2017) have been conducted to enable a robot to understand the linguistic commands given by human users. The spoken commands given by a human user are conventionally recognized and understood by a robot in the following manner: First, the robot recognizes a sentence spoken by a human user by applying an automatic speech recognition (ASR) system such as Google Cloud Speech-to-Text API1, CMU Sphinx2, or Julius3. Next, the robot applies syntactic and semantic parsing and determines the sequence of commands that it is expected to carry out.",
+      "sixth_sentence": "The former part corresponds to the ASR task, and the latter corresponds to the NLP task.",
+      "input_changed_from_old": true,
+      "target_changed_from_old": false
+    },
+    {
+      "selection_order": 18,
+      "pmcid": "PMC7806023",
+      "xml_path": "/Users/vivian_hsu/Desktop/Capstone/bpe-merge-order/data/europe_pmc_pilot/raw/PMC7806023.xml",
+      "xml_sha256": "17fa7e7337b16d0635c2e54880546b87528c0a95c318fc47f0e312ab52bbea4b",
+      "decision": "include",
+      "exclusion_code": null,
+      "exclusion_reason": null,
+      "six_sentences": [
+        "Hydraulic excavators are construction machines with working devices that have a high degree of freedom and various attachments.",
+        "Thus, these excavators can be used for various types of work, such as excavation and demolition.",
+        "The operators of hydraulic excavators should have advanced skills and experience.",
+        "To operate an excavator as desired, the operator controls the levers in the cab; however, this type of operation is not very intuitive.",
+        "In recent years, the number of workers in the construction industry has been decreasing, and the decrease in the number of young workers has posed a challenge.",
+        "Hence, the early training of young hydraulic excavator operators is indispensable, but operation training with a real excavator may be difficult in terms of securing an appropriate location and ensuring safety."
+      ],
+      "six_source_positions": [
+        {
+          "text": "Hydraulic excavators are construction machines with working devices that have a high degree of freedom and various attachments.",
+          "xpath": "/article/body/sec[1]/p[1]",
+          "paragraph_index": 1,
+          "start_char_in_flattened_paragraph": 0,
+          "end_char_in_flattened_paragraph": 127
+        },
+        {
+          "text": "Thus, these excavators can be used for various types of work, such as excavation and demolition.",
+          "xpath": "/article/body/sec[1]/p[1]",
+          "paragraph_index": 1,
+          "start_char_in_flattened_paragraph": 128,
+          "end_char_in_flattened_paragraph": 224
+        },
+        {
+          "text": "The operators of hydraulic excavators should have advanced skills and experience.",
+          "xpath": "/article/body/sec[1]/p[1]",
+          "paragraph_index": 1,
+          "start_char_in_flattened_paragraph": 225,
+          "end_char_in_flattened_paragraph": 306
+        },
+        {
+          "text": "To operate an excavator as desired, the operator controls the levers in the cab; however, this type of operation is not very intuitive.",
+          "xpath": "/article/body/sec[1]/p[1]",
+          "paragraph_index": 1,
+          "start_char_in_flattened_paragraph": 307,
+          "end_char_in_flattened_paragraph": 442
+        },
+        {
+          "text": "In recent years, the number of workers in the construction industry has been decreasing, and the decrease in the number of young workers has posed a challenge.",
+          "xpath": "/article/body/sec[1]/p[1]",
+          "paragraph_index": 1,
+          "start_char_in_flattened_paragraph": 443,
+          "end_char_in_flattened_paragraph": 602
+        },
+        {
+          "text": "Hence, the early training of young hydraulic excavator operators is indispensable, but operation training with a real excavator may be difficult in terms of securing an appropriate location and ensuring safety.",
+          "xpath": "/article/body/sec[1]/p[1]",
+          "paragraph_index": 1,
+          "start_char_in_flattened_paragraph": 603,
+          "end_char_in_flattened_paragraph": 813
+        }
+      ],
+      "input_text": "Hydraulic excavators are construction machines with working devices that have a high degree of freedom and various attachments. Thus, these excavators can be used for various types of work, such as excavation and demolition. The operators of hydraulic excavators should have advanced skills and experience. To operate an excavator as desired, the operator controls the levers in the cab; however, this type of operation is not very intuitive. In recent years, the number of workers in the construction industry has been decreasing, and the decrease in the number of young workers has posed a challenge.",
+      "sixth_sentence": "Hence, the early training of young hydraulic excavator operators is indispensable, but operation training with a real excavator may be difficult in terms of securing an appropriate location and ensuring safety.",
+      "input_changed_from_old": false,
+      "target_changed_from_old": false
+    },
+    {
+      "selection_order": 19,
+      "pmcid": "PMC7805644",
+      "xml_path": "/Users/vivian_hsu/Desktop/Capstone/bpe-merge-order/data/europe_pmc_pilot/raw/PMC7805644.xml",
+      "xml_sha256": "429b02bd70530fecd2a27a92d14d56d452ceb463c3cfa412b8297b662a6ba732",
+      "decision": "include",
+      "exclusion_code": null,
+      "exclusion_reason": null,
+      "six_sentences": [
+        "Endoscopic Submucosal Dissection (ESD) is a novel surgical technique for removal of large early gastric cancers with no risk of lymph node metastasis (Kang et al., 2011).",
+        "ESD enables en bloc (in a single piece) and histologically complete resection of cancers over 20 mm in diameter, which would be removed in separate parts, known as piecemeal removal, if Endoscopic Mucosal Resection (EMR) were used.",
+        "Piecemeal EMR (p-EMR) results in higher recurrence rates than for en bloc removal using ESD (Heitman and Bourke, 2017).",
+        "However, the ESD procedure performed with standard endoscopes suffers from long operation times and higher complication risks in comparison with EMR (Oka et al., 2006).",
+        "These disadvantages arise because of the technical difficulty associated with ESD, which is evidenced by the high number of supervised procedures that are necessary to learn the technique (Najib Azmi et al., 2016).",
+        "If ESD can be achieved faster and more reliably then it may be a powerful treatment for gastric cancer, which was the second most common cause of cancer deaths in the UK in 2015 with 41,700 new cases of bowel cancer occurring annually between 2013 and 2015, being the fourth most common cancer in the UK in 2015 (Cancer Research UK, 2019)."
+      ],
+      "six_source_positions": [
+        {
+          "text": "Endoscopic Submucosal Dissection (ESD) is a novel surgical technique for removal of large early gastric cancers with no risk of lymph node metastasis (Kang et al., 2011).",
+          "xpath": "/article/body/sec[1]/p[1]",
+          "paragraph_index": 1,
+          "start_char_in_flattened_paragraph": 0,
+          "end_char_in_flattened_paragraph": 170
+        },
+        {
+          "text": "ESD enables en bloc (in a single piece) and histologically complete resection of cancers over 20 mm in diameter, which would be removed in separate parts, known as piecemeal removal, if Endoscopic Mucosal Resection (EMR) were used.",
+          "xpath": "/article/body/sec[1]/p[1]",
+          "paragraph_index": 1,
+          "start_char_in_flattened_paragraph": 171,
+          "end_char_in_flattened_paragraph": 402
+        },
+        {
+          "text": "Piecemeal EMR (p-EMR) results in higher recurrence rates than for en bloc removal using ESD (Heitman and Bourke, 2017).",
+          "xpath": "/article/body/sec[1]/p[1]",
+          "paragraph_index": 1,
+          "start_char_in_flattened_paragraph": 403,
+          "end_char_in_flattened_paragraph": 522
+        },
+        {
+          "text": "However, the ESD procedure performed with standard endoscopes suffers from long operation times and higher complication risks in comparison with EMR (Oka et al., 2006).",
+          "xpath": "/article/body/sec[1]/p[1]",
+          "paragraph_index": 1,
+          "start_char_in_flattened_paragraph": 523,
+          "end_char_in_flattened_paragraph": 691
+        },
+        {
+          "text": "These disadvantages arise because of the technical difficulty associated with ESD, which is evidenced by the high number of supervised procedures that are necessary to learn the technique (Najib Azmi et al., 2016).",
+          "xpath": "/article/body/sec[1]/p[1]",
+          "paragraph_index": 1,
+          "start_char_in_flattened_paragraph": 692,
+          "end_char_in_flattened_paragraph": 906
+        },
+        {
+          "text": "If ESD can be achieved faster and more reliably then it may be a powerful treatment for gastric cancer, which was the second most common cause of cancer deaths in the UK in 2015 with 41,700 new cases of bowel cancer occurring annually between 2013 and 2015, being the fourth most common cancer in the UK in 2015 (Cancer Research UK, 2019).",
+          "xpath": "/article/body/sec[1]/p[1]",
+          "paragraph_index": 1,
+          "start_char_in_flattened_paragraph": 907,
+          "end_char_in_flattened_paragraph": 1246
+        }
+      ],
+      "input_text": "Endoscopic Submucosal Dissection (ESD) is a novel surgical technique for removal of large early gastric cancers with no risk of lymph node metastasis (Kang et al., 2011). ESD enables en bloc (in a single piece) and histologically complete resection of cancers over 20 mm in diameter, which would be removed in separate parts, known as piecemeal removal, if Endoscopic Mucosal Resection (EMR) were used. Piecemeal EMR (p-EMR) results in higher recurrence rates than for en bloc removal using ESD (Heitman and Bourke, 2017). However, the ESD procedure performed with standard endoscopes suffers from long operation times and higher complication risks in comparison with EMR (Oka et al., 2006). These disadvantages arise because of the technical difficulty associated with ESD, which is evidenced by the high number of supervised procedures that are necessary to learn the technique (Najib Azmi et al., 2016).",
+      "sixth_sentence": "If ESD can be achieved faster and more reliably then it may be a powerful treatment for gastric cancer, which was the second most common cause of cancer deaths in the UK in 2015 with 41,700 new cases of bowel cancer occurring annually between 2013 and 2015, being the fourth most common cancer in the UK in 2015 (Cancer Research UK, 2019).",
+      "input_changed_from_old": true,
+      "target_changed_from_old": true
+    },
+    {
+      "selection_order": 20,
+      "pmcid": "PMC7805668",
+      "xml_path": "/Users/vivian_hsu/Desktop/Capstone/bpe-merge-order/data/europe_pmc_pilot/raw/PMC7805668.xml",
+      "xml_sha256": "e068694c31592611e3b62c8645200482eaab2264fe07191747f60e4cab959716",
+      "decision": "include",
+      "exclusion_code": null,
+      "exclusion_reason": null,
+      "six_sentences": [
+        "Soft manipulation is a hot topic of research in robotics nowadays, as it promises a simpler way to bring multi-fingered hands to real-world scenarios.",
+        "Indeed, soft hands are intrinsically robust for interacting with the environment and require simple control strategies to actuate a reduced (mostly one) number of actuated degrees of freedom (DoF) (Dollar and Howe, 2010).",
+        "Applications in the logistics and food processing industries are one of the potential scenarios where soft robotic hands could automate the grasping of different objects with very different weights and shapes.",
+        "Inspired by observation of human grasping actions, the use of environmental constraints (Eppner et al., 2015) increases the performance of soft hands by reducing the influence of uncertainty coming from vision and sensors and proves valuable in scenarios, such as fruit handling, where there is no CAD model available to describe the shape of the manipulated objects.",
+        "Many different soft robotics hand technologies have been developed in recent years, mostly with embodied compliance (Aukes et al., 2014; Catalano et al., 2014; Ciocarlie et al., 2014; Stuart et al., 2017).",
+        "For example, the hand presented in Tavakoli and de Almeida (2014) uses structural elasticity (elastic joints and soft pads), and the hand from Deimel and Brock (2015) uses structural elasticity paired with differential actuation."
+      ],
+      "six_source_positions": [
+        {
+          "text": "Soft manipulation is a hot topic of research in robotics nowadays, as it promises a simpler way to bring multi-fingered hands to real-world scenarios.",
+          "xpath": "/article/body/sec[1]/p[1]",
+          "paragraph_index": 1,
+          "start_char_in_flattened_paragraph": 0,
+          "end_char_in_flattened_paragraph": 150
+        },
+        {
+          "text": "Indeed, soft hands are intrinsically robust for interacting with the environment and require simple control strategies to actuate a reduced (mostly one) number of actuated degrees of freedom (DoF) (Dollar and Howe, 2010).",
+          "xpath": "/article/body/sec[1]/p[1]",
+          "paragraph_index": 1,
+          "start_char_in_flattened_paragraph": 151,
+          "end_char_in_flattened_paragraph": 372
+        },
+        {
+          "text": "Applications in the logistics and food processing industries are one of the potential scenarios where soft robotic hands could automate the grasping of different objects with very different weights and shapes.",
+          "xpath": "/article/body/sec[1]/p[1]",
+          "paragraph_index": 1,
+          "start_char_in_flattened_paragraph": 373,
+          "end_char_in_flattened_paragraph": 582
+        },
+        {
+          "text": "Inspired by observation of human grasping actions, the use of environmental constraints (Eppner et al., 2015) increases the performance of soft hands by reducing the influence of uncertainty coming from vision and sensors and proves valuable in scenarios, such as fruit handling, where there is no CAD model available to describe the shape of the manipulated objects.",
+          "xpath": "/article/body/sec[1]/p[1]",
+          "paragraph_index": 1,
+          "start_char_in_flattened_paragraph": 583,
+          "end_char_in_flattened_paragraph": 950
+        },
+        {
+          "text": "Many different soft robotics hand technologies have been developed in recent years, mostly with embodied compliance (Aukes et al., 2014; Catalano et al., 2014; Ciocarlie et al., 2014; Stuart et al., 2017).",
+          "xpath": "/article/body/sec[1]/p[1]",
+          "paragraph_index": 1,
+          "start_char_in_flattened_paragraph": 951,
+          "end_char_in_flattened_paragraph": 1156
+        },
+        {
+          "text": "For example, the hand presented in Tavakoli and de Almeida (2014) uses structural elasticity (elastic joints and soft pads), and the hand from Deimel and Brock (2015) uses structural elasticity paired with differential actuation.",
+          "xpath": "/article/body/sec[1]/p[1]",
+          "paragraph_index": 1,
+          "start_char_in_flattened_paragraph": 1157,
+          "end_char_in_flattened_paragraph": 1386
+        }
+      ],
+      "input_text": "Soft manipulation is a hot topic of research in robotics nowadays, as it promises a simpler way to bring multi-fingered hands to real-world scenarios. Indeed, soft hands are intrinsically robust for interacting with the environment and require simple control strategies to actuate a reduced (mostly one) number of actuated degrees of freedom (DoF) (Dollar and Howe, 2010). Applications in the logistics and food processing industries are one of the potential scenarios where soft robotic hands could automate the grasping of different objects with very different weights and shapes. Inspired by observation of human grasping actions, the use of environmental constraints (Eppner et al., 2015) increases the performance of soft hands by reducing the influence of uncertainty coming from vision and sensors and proves valuable in scenarios, such as fruit handling, where there is no CAD model available to describe the shape of the manipulated objects. Many different soft robotics hand technologies have been developed in recent years, mostly with embodied compliance (Aukes et al., 2014; Catalano et al., 2014; Ciocarlie et al., 2014; Stuart et al., 2017).",
+      "sixth_sentence": "For example, the hand presented in Tavakoli and de Almeida (2014) uses structural elasticity (elastic joints and soft pads), and the hand from Deimel and Brock (2015) uses structural elasticity paired with differential actuation.",
+      "input_changed_from_old": true,
+      "target_changed_from_old": true
+    }
+  ]
+}

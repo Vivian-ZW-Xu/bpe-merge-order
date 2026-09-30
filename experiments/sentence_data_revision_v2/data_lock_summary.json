@@ -1,0 +1,25 @@
+{
+  "policy_sha256": "5e4df6cf24d3504ea1b44208611a662991fb13c0def26dcbb86c245463e088c1",
+  "candidate_sha256": "8c67c65d9d5eb67a52ce1b0befaa8f099f3df022e869e1cb14a133d8a903e8ab",
+  "review_sha256": "0b1d9701a46f7ebacab8efabcaf04f012a9d8959028656be13b27bbad1a2e2b1",
+  "manifest_sha256": {
+    "holdout_2021": "761a8dd4c1b06902b24b1d4d84e02de3ec06b346db9d6b5903d45cbaa4b7e9f5",
+    "pilot_2020": "2ca9fd9339c0c7d5e381d01068b3028f3f6613392d43c9821f2e1e6d70e089ed"
+  },
+  "batches": {
+    "holdout_2021": {
+      "original": 120,
+      "included": 112,
+      "excluded": 8,
+      "included_input_changed": 107,
+      "included_target_changed": 79
+    },
+    "pilot_2020": {
+      "original": 20,
+      "included": 20,
+      "excluded": 0,
+      "included_input_changed": 17,
+      "included_target_changed": 8
+    }
+  }
+}

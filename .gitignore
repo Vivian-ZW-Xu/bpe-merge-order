@@ -1,0 +1,48 @@
+# Local Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Model weights and local Hugging Face caches
+model/
+models/
+weights/
+checkpoints/
+hf-cache/
+.cache/
+*.safetensors
+*.gguf
+*.pt
+*.pth
+*.ckpt
+pytorch_model*.bin
+
+# Raw Europe PMC full-text XML
+data/europe_pmc_pilot/raw/
+data/europe_pmc_holdout_2021/raw/
+data/**/raw/
+data/europe_pmc_holdout_2021/collection_state.json
+data/europe_pmc_pilot/collection_state.json
+data/europe_pmc_pilot/search_pages/
+experiments/europe_pmc_holdout_2021/prepared_inputs.json
+
+# Large formal-experiment outputs: save small, reviewed summaries elsewhere
+experiments/runs/
+experiments/outputs/
+experiments/results/
+experiments/checkpoints/
+outputs/
+artifacts/
+
+# OS files
+.DS_Store
+
+# Local credentials and private configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.p12
+*.key

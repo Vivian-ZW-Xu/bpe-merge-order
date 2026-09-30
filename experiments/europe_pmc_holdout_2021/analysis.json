@@ -1,0 +1,1865 @@
+{
+  "source_results_sha256": "4ace1fcd50a95fb958d463ac3ac46ebdde90ef953df3434caaaed22c3bf7b605",
+  "source_prepared_sha256": "48662cd1396fe80c79607ac98d5c5f64ac13fd15c3574bda04df29af878ca1cd",
+  "paper_count": 120,
+  "score_count": 480,
+  "aggregation": "Equal weight per paper; arithmetic mean of per-target-token mean NLL",
+  "bootstrap": "10000 paper-level resamples with replacement; Python random.Random(2021), same N papers each draw; linear-interpolated 2.5th and 97.5th percentiles; descriptive only",
+  "group_mean_nll": {
+    "A_original": 2.9964715970825098,
+    "B_original_shuffle_seed42": 3.248748686945665,
+    "D_complete_shuffle_seed42": 3.0723119413646387,
+    "E_original_rules_D_relative_order": 3.2521520343110315
+  },
+  "comparisons": {
+    "D_minus_E": {
+      "mean": -0.17984009294639283,
+      "median": -0.1542980283420421,
+      "D_lower_count": 105,
+      "paper_count": 120,
+      "bootstrap_95_percentile_interval": [
+        -0.21013950410889434,
+        -0.149870586649806
+      ]
+    },
+    "D_minus_B": {
+      "mean": -0.17643674558102657,
+      "median": -0.1529027369255458,
+      "D_lower_count": 103,
+      "paper_count": 120,
+      "bootstrap_95_percentile_interval": [
+        -0.20958705517801424,
+        -0.1439681827057527
+      ]
+    },
+    "D_minus_A": {
+      "mean": 0.07584034428212913,
+      "median": 0.07314855457769354,
+      "D_lower_count": 21,
+      "paper_count": 120,
+      "bootstrap_95_percentile_interval": [
+        0.041607934367882085,
+        0.10265800464319337
+      ]
+    }
+  },
+  "D_worse_than_E_pmcids": [
+    "PMC7873935",
+    "PMC7873968",
+    "PMC7882723",
+    "PMC7902880",
+    "PMC8202444",
+    "PMC8192886",
+    "PMC8326699",
+    "PMC8464200",
+    "PMC8387691",
+    "PMC8374633",
+    "PMC8575360",
+    "PMC8578993",
+    "PMC8621619",
+    "PMC8655126",
+    "PMC8851128"
+  ],
+  "rows": [
+    {
+      "selection_order": 1,
+      "month": 1,
+      "pmcid": "PMC7873056",
+      "target_token_count": 30,
+      "mean_nll": {
+        "A_original": 2.976990373279356,
+        "B_original_shuffle_seed42": 3.1344727725411454,
+        "D_complete_shuffle_seed42": 3.054449346397693,
+        "E_original_rules_D_relative_order": 3.13798313884375
+      },
+      "D_minus_E": -0.08353379244605685,
+      "D_minus_B": -0.08002342614345226,
+      "D_minus_A": 0.07745897311833705
+    },
+    {
+      "selection_order": 2,
+      "month": 1,
+      "pmcid": "PMC7868416",
+      "target_token_count": 50,
+      "mean_nll": {
+        "A_original": 2.236607930904429,
+        "B_original_shuffle_seed42": 2.3343376406298195,
+        "D_complete_shuffle_seed42": 2.2813936465699225,
+        "E_original_rules_D_relative_order": 2.312001258811215
+      },
+      "D_minus_E": -0.030607612241292603,
+      "D_minus_B": -0.052943994059897026,
+      "D_minus_A": 0.04478571566549361
+    },
+    {
+      "selection_order": 3,
+      "month": 1,
+      "pmcid": "PMC7871783",
+      "target_token_count": 26,
+      "mean_nll": {
+        "A_original": 1.7879675027144493,
+        "B_original_shuffle_seed42": 1.7935536345654468,
+        "D_complete_shuffle_seed42": 1.61315847017823,
+        "E_original_rules_D_relative_order": 2.0508279150960265
+      },
+      "D_minus_E": -0.43766944491779647,
+      "D_minus_B": -0.1803951643872168,
+      "D_minus_A": -0.17480903253621927
+    },
+    {
+      "selection_order": 4,
+      "month": 1,
+      "pmcid": "PMC7873935",
+      "target_token_count": 17,
+      "mean_nll": {
+        "A_original": 4.694447370029058,
+        "B_original_shuffle_seed42": 4.636422101141172,
+        "D_complete_shuffle_seed42": 4.808999029840754,
+        "E_original_rules_D_relative_order": 4.716075849445427
+      },
+      "D_minus_E": 0.09292318039532699,
+      "D_minus_B": 0.17257692869958152,
+      "D_minus_A": 0.11455165981169557
+    },
+    {
+      "selection_order": 5,
+      "month": 1,
+      "pmcid": "PMC7873968",
+      "target_token_count": 45,
+      "mean_nll": {
+        "A_original": 2.9014100933285794,
+        "B_original_shuffle_seed42": 3.080544017034117,
+        "D_complete_shuffle_seed42": 3.030903186830175,
+        "E_original_rules_D_relative_order": 3.005170704300205
+      },
+      "D_minus_E": 0.025732482529969847,
+      "D_minus_B": -0.049640830203942166,
+      "D_minus_A": 0.12949309350159544
+    },
+    {
+      "selection_order": 6,
+      "month": 1,
+      "pmcid": "PMC7862128",
+      "target_token_count": 49,
+      "mean_nll": {
+        "A_original": 2.3072719246190956,
+        "B_original_shuffle_seed42": 2.264971285963553,
+        "D_complete_shuffle_seed42": 2.2571333751857496,
+        "E_original_rules_D_relative_order": 2.3403933339754452
+      },
+      "D_minus_E": -0.08325995878969561,
+      "D_minus_B": -0.00783791077780327,
+      "D_minus_A": -0.05013854943334595
+    },
+    {
+      "selection_order": 7,
+      "month": 1,
+      "pmcid": "PMC7856147",
+      "target_token_count": 62,
+      "mean_nll": {
+        "A_original": 2.6210444557053054,
+        "B_original_shuffle_seed42": 2.6923547923450375,
+        "D_complete_shuffle_seed42": 2.6599192235664244,
+        "E_original_rules_D_relative_order": 2.669968255524098
+      },
+      "D_minus_E": -0.010049031957673815,
+      "D_minus_B": -0.03243556877861309,
+      "D_minus_A": 0.038874767861118986
+    },
+    {
+      "selection_order": 8,
+      "month": 1,
+      "pmcid": "PMC7874054",
+      "target_token_count": 18,
+      "mean_nll": {
+        "A_original": 3.3658131219239698,
+        "B_original_shuffle_seed42": 3.4506519426488214,
+        "D_complete_shuffle_seed42": 3.3406428530450083,
+        "E_original_rules_D_relative_order": 3.5259303758955665
+      },
+      "D_minus_E": -0.18528752285055816,
+      "D_minus_B": -0.11000908960381306,
+      "D_minus_A": -0.025170268878961455
+    },
+    {
+      "selection_order": 9,
+      "month": 1,
+      "pmcid": "PMC7874125",
+      "target_token_count": 36,
+      "mean_nll": {
+        "A_original": 2.769681886372256,
+        "B_original_shuffle_seed42": 2.9813982020467744,
+        "D_complete_shuffle_seed42": 2.8304258379569345,
+        "E_original_rules_D_relative_order": 2.9862433043597574
+      },
+      "D_minus_E": -0.1558174664028229,
+      "D_minus_B": -0.15097236408983994,
+      "D_minus_A": 0.0607439515846786
+    },
+    {
+      "selection_order": 10,
+      "month": 1,
+      "pmcid": "PMC7874013",
+      "target_token_count": 23,
+      "mean_nll": {
+        "A_original": 2.7671350045364544,
+        "B_original_shuffle_seed42": 3.2586122237966184,
+        "D_complete_shuffle_seed42": 2.908281803766326,
+        "E_original_rules_D_relative_order": 3.1617975695037823
+      },
+      "D_minus_E": -0.25351576573745627,
+      "D_minus_B": -0.35033042003029236,
+      "D_minus_A": 0.1411467992298716
+    },
+    {
+      "selection_order": 11,
+      "month": 2,
+      "pmcid": "PMC7930226",
+      "target_token_count": 43,
+      "mean_nll": {
+        "A_original": 3.2802436757717026,
+        "B_original_shuffle_seed42": 3.802565805808246,
+        "D_complete_shuffle_seed42": 3.456691248732251,
+        "E_original_rules_D_relative_order": 3.867249498439061
+      },
+      "D_minus_E": -0.4105582497068099,
+      "D_minus_B": -0.3458745570759949,
+      "D_minus_A": 0.17644757296054836
+    },
+    {
+      "selection_order": 12,
+      "month": 2,
+      "pmcid": "PMC7908828",
+      "target_token_count": 54,
+      "mean_nll": {
+        "A_original": 2.448628733005872,
+        "B_original_shuffle_seed42": 2.699601301715895,
+        "D_complete_shuffle_seed42": 2.467921776856437,
+        "E_original_rules_D_relative_order": 2.694555980364654
+      },
+      "D_minus_E": -0.22663420350821717,
+      "D_minus_B": -0.23167952485945786,
+      "D_minus_A": 0.019293043850565184
+    },
+    {
+      "selection_order": 13,
+      "month": 2,
+      "pmcid": "PMC7884905",
+      "target_token_count": 40,
+      "mean_nll": {
+        "A_original": 4.015174326175111,
+        "B_original_shuffle_seed42": 4.601657591137337,
+        "D_complete_shuffle_seed42": 4.1130026101280235,
+        "E_original_rules_D_relative_order": 4.6131464399048125
+      },
+      "D_minus_E": -0.5001438297767891,
+      "D_minus_B": -0.48865498100931326,
+      "D_minus_A": 0.09782828395291254
+    },
+    {
+      "selection_order": 14,
+      "month": 2,
+      "pmcid": "PMC7921734",
+      "target_token_count": 27,
+      "mean_nll": {
+        "A_original": 2.8597844756061224,
+        "B_original_shuffle_seed42": 3.1210516101310968,
+        "D_complete_shuffle_seed42": 2.8427735454143086,
+        "E_original_rules_D_relative_order": 2.976340720866574
+      },
+      "D_minus_E": -0.13356717545226537,
+      "D_minus_B": -0.2782780647167882,
+      "D_minus_A": -0.017010930191813767
+    },
+    {
+      "selection_order": 15,
+      "month": 2,
+      "pmcid": "PMC7884346",
+      "target_token_count": 20,
+      "mean_nll": {
+        "A_original": 3.0576460368949485,
+        "B_original_shuffle_seed42": 3.536565322421302,
+        "D_complete_shuffle_seed42": 3.071340279681317,
+        "E_original_rules_D_relative_order": 3.463865697477013
+      },
+      "D_minus_E": -0.39252541779569583,
+      "D_minus_B": -0.4652250427399851,
+      "D_minus_A": 0.013694242786368438
+    },
+    {
+      "selection_order": 16,
+      "month": 2,
+      "pmcid": "PMC7933526",
+      "target_token_count": 21,
+      "mean_nll": {
+        "A_original": 2.5526524583691796,
+        "B_original_shuffle_seed42": 2.984081116290673,
+        "D_complete_shuffle_seed42": 2.6061186930143907,
+        "E_original_rules_D_relative_order": 2.974085690877906
+      },
+      "D_minus_E": -0.3679669978635154,
+      "D_minus_B": -0.37796242327628216,
+      "D_minus_A": 0.05346623464521105
+    },
+    {
+      "selection_order": 17,
+      "month": 2,
+      "pmcid": "PMC7893087",
+      "target_token_count": 17,
+      "mean_nll": {
+        "A_original": 4.325695633778677,
+        "B_original_shuffle_seed42": 4.762003401239567,
+        "D_complete_shuffle_seed42": 4.418879887527403,
+        "E_original_rules_D_relative_order": 4.814959915300064
+      },
+      "D_minus_E": -0.39608002777266105,
+      "D_minus_B": -0.34312351371216376,
+      "D_minus_A": 0.09318425374872596
+    },
+    {
+      "selection_order": 18,
+      "month": 2,
+      "pmcid": "PMC7882723",
+      "target_token_count": 31,
+      "mean_nll": {
+        "A_original": 2.8017867550313955,
+        "B_original_shuffle_seed42": 2.841065643986146,
+        "D_complete_shuffle_seed42": 2.8778251442727782,
+        "E_original_rules_D_relative_order": 2.846398534523624
+      },
+      "D_minus_E": 0.031426609749154455,
+      "D_minus_B": 0.03675950028663211,
+      "D_minus_A": 0.07603838924138273
+    },
+    {
+      "selection_order": 19,
+      "month": 2,
+      "pmcid": "PMC7925849",
+      "target_token_count": 50,
+      "mean_nll": {
+        "A_original": 3.12468935719633,
+        "B_original_shuffle_seed42": 3.191579084740515,
+        "D_complete_shuffle_seed42": 3.187832920726214,
+        "E_original_rules_D_relative_order": 3.251422192280734
+      },
+      "D_minus_E": -0.06358927155451966,
+      "D_minus_B": -0.0037461640143008346,
+      "D_minus_A": 0.06314356352988426
+    },
+    {
+      "selection_order": 20,
+      "month": 2,
+      "pmcid": "PMC7902880",
+      "target_token_count": 18,
+      "mean_nll": {
+        "A_original": 3.1279940492587963,
+        "B_original_shuffle_seed42": 3.1798646695957964,
+        "D_complete_shuffle_seed42": 3.1809843373419855,
+        "E_original_rules_D_relative_order": 3.140179301670236
+      },
+      "D_minus_E": 0.04080503567174931,
+      "D_minus_B": 0.0011196677461891014,
+      "D_minus_A": 0.052990288083189174
+    },
+    {
+      "selection_order": 21,
+      "month": 3,
+      "pmcid": "PMC8665294",
+      "target_token_count": 51,
+      "mean_nll": {
+        "A_original": 3.157017272659669,
+        "B_original_shuffle_seed42": 3.427620179805101,
+        "D_complete_shuffle_seed42": 3.224312995583294,
+        "E_original_rules_D_relative_order": 3.417818317874609
+      },
+      "D_minus_E": -0.193505322291315,
+      "D_minus_B": -0.20330718422180727,
+      "D_minus_A": 0.06729572292362507
+    },
+    {
+      "selection_order": 22,
+      "month": 3,
+      "pmcid": "PMC8126352",
+      "target_token_count": 24,
+      "mean_nll": {
+        "A_original": 3.558418555146394,
+        "B_original_shuffle_seed42": 3.704879269003868,
+        "D_complete_shuffle_seed42": 3.595836652830864,
+        "E_original_rules_D_relative_order": 3.6984883878418864
+      },
+      "D_minus_E": -0.10265173501102254,
+      "D_minus_B": -0.10904261617300426,
+      "D_minus_A": 0.03741809768447002
+    },
+    {
+      "selection_order": 23,
+      "month": 3,
+      "pmcid": "PMC8374279",
+      "target_token_count": 58,
+      "mean_nll": {
+        "A_original": 3.4908953147312096,
+        "B_original_shuffle_seed42": 3.929741699870772,
+        "D_complete_shuffle_seed42": 3.641452645352572,
+        "E_original_rules_D_relative_order": 3.8254257367827513
+      },
+      "D_minus_E": -0.18397309143017937,
+      "D_minus_B": -0.28828905451819997,
+      "D_minus_A": 0.15055733062136234
+    },
+    {
+      "selection_order": 24,
+      "month": 3,
+      "pmcid": "PMC8550509",
+      "target_token_count": 20,
+      "mean_nll": {
+        "A_original": 2.8581468712538483,
+        "B_original_shuffle_seed42": 2.9824348816182464,
+        "D_complete_shuffle_seed42": 2.896123362053186,
+        "E_original_rules_D_relative_order": 3.110300850844942
+      },
+      "D_minus_E": -0.21417748879175624,
+      "D_minus_B": -0.08631151956506056,
+      "D_minus_A": 0.037976490799337626
+    },
+    {
+      "selection_order": 25,
+      "month": 3,
+      "pmcid": "PMC8085446",
+      "target_token_count": 52,
+      "mean_nll": {
+        "A_original": 2.492755438925857,
+        "B_original_shuffle_seed42": 2.769886533241893,
+        "D_complete_shuffle_seed42": 2.6228956375752412,
+        "E_original_rules_D_relative_order": 2.7682075375893804
+      },
+      "D_minus_E": -0.14531190001413918,
+      "D_minus_B": -0.1469908956666517,
+      "D_minus_A": 0.13014019864938442
+    },
+    {
+      "selection_order": 26,
+      "month": 3,
+      "pmcid": "PMC8236113",
+      "target_token_count": 23,
+      "mean_nll": {
+        "A_original": 3.816483376239573,
+        "B_original_shuffle_seed42": 4.21800912859465,
+        "D_complete_shuffle_seed42": 3.943218921273238,
+        "E_original_rules_D_relative_order": 4.291752621177179
+      },
+      "D_minus_E": -0.3485336999039408,
+      "D_minus_B": -0.2747902073214119,
+      "D_minus_A": 0.1267355450336649
+    },
+    {
+      "selection_order": 27,
+      "month": 3,
+      "pmcid": "PMC9179187",
+      "target_token_count": 23,
+      "mean_nll": {
+        "A_original": 2.278373052200807,
+        "B_original_shuffle_seed42": 2.5069074252833556,
+        "D_complete_shuffle_seed42": 2.4513256423885217,
+        "E_original_rules_D_relative_order": 2.609379669298347
+      },
+      "D_minus_E": -0.1580540269098254,
+      "D_minus_B": -0.05558178289483395,
+      "D_minus_A": 0.1729525901877147
+    },
+    {
+      "selection_order": 28,
+      "month": 3,
+      "pmcid": "PMC8545217",
+      "target_token_count": 2,
+      "mean_nll": {
+        "A_original": 12.732988357543945,
+        "B_original_shuffle_seed42": 12.28508734703064,
+        "D_complete_shuffle_seed42": 11.381505489349365,
+        "E_original_rules_D_relative_order": 11.680476903915405
+      },
+      "D_minus_E": -0.29897141456604004,
+      "D_minus_B": -0.9035818576812744,
+      "D_minus_A": -1.35148286819458
+    },
+    {
+      "selection_order": 29,
+      "month": 3,
+      "pmcid": "PMC8180001",
+      "target_token_count": 16,
+      "mean_nll": {
+        "A_original": 2.9537037056143163,
+        "B_original_shuffle_seed42": 3.5372282037278637,
+        "D_complete_shuffle_seed42": 3.142163748445455,
+        "E_original_rules_D_relative_order": 3.600916128139943
+      },
+      "D_minus_E": -0.4587523796944879,
+      "D_minus_B": -0.39506445528240874,
+      "D_minus_A": 0.1884600428311387
+    },
+    {
+      "selection_order": 30,
+      "month": 3,
+      "pmcid": "PMC8202444",
+      "target_token_count": 15,
+      "mean_nll": {
+        "A_original": 3.447134365643918,
+        "B_original_shuffle_seed42": 3.544930034621696,
+        "D_complete_shuffle_seed42": 3.5021022021460038,
+        "E_original_rules_D_relative_order": 3.462637751464111
+      },
+      "D_minus_E": 0.03946445068189286,
+      "D_minus_B": -0.04282783247569233,
+      "D_minus_A": 0.05496783650208581
+    },
+    {
+      "selection_order": 31,
+      "month": 4,
+      "pmcid": "PMC8433180",
+      "target_token_count": 26,
+      "mean_nll": {
+        "A_original": 3.574302603495128,
+        "B_original_shuffle_seed42": 3.976554101230039,
+        "D_complete_shuffle_seed42": 3.730921615074084,
+        "E_original_rules_D_relative_order": 3.958693830802356
+      },
+      "D_minus_E": -0.227772215728272,
+      "D_minus_B": -0.24563248615595512,
+      "D_minus_A": 0.15661901157895608
+    },
+    {
+      "selection_order": 32,
+      "month": 4,
+      "pmcid": "PMC8102126",
+      "target_token_count": 32,
+      "mean_nll": {
+        "A_original": 3.244903508166317,
+        "B_original_shuffle_seed42": 3.483240392903099,
+        "D_complete_shuffle_seed42": 3.3444310742779635,
+        "E_original_rules_D_relative_order": 3.4415327358583454
+      },
+      "D_minus_E": -0.09710166158038191,
+      "D_minus_B": -0.13880931862513535,
+      "D_minus_A": 0.09952756611164659
+    },
+    {
+      "selection_order": 33,
+      "month": 4,
+      "pmcid": "PMC8164195",
+      "target_token_count": 8,
+      "mean_nll": {
+        "A_original": 3.2973980320603005,
+        "B_original_shuffle_seed42": 3.693542583438102,
+        "D_complete_shuffle_seed42": 3.551664556041942,
+        "E_original_rules_D_relative_order": 3.5757655698107556
+      },
+      "D_minus_E": -0.024101013768813573,
+      "D_minus_B": -0.14187802739616018,
+      "D_minus_A": 0.2542665239816415
+    },
+    {
+      "selection_order": 34,
+      "month": 4,
+      "pmcid": "PMC8262175",
+      "target_token_count": 51,
+      "mean_nll": {
+        "A_original": 2.586973132055159,
+        "B_original_shuffle_seed42": 3.0955508127956946,
+        "D_complete_shuffle_seed42": 2.7529495202493397,
+        "E_original_rules_D_relative_order": 3.0176550613615807
+      },
+      "D_minus_E": -0.264705541112241,
+      "D_minus_B": -0.34260129254635485,
+      "D_minus_A": 0.16597638819418048
+    },
+    {
+      "selection_order": 35,
+      "month": 4,
+      "pmcid": "PMC8113650",
+      "target_token_count": 52,
+      "mean_nll": {
+        "A_original": 3.0967391645305304,
+        "B_original_shuffle_seed42": 3.3064793863254285,
+        "D_complete_shuffle_seed42": 3.1227206098827502,
+        "E_original_rules_D_relative_order": 3.3127326627874516
+      },
+      "D_minus_E": -0.19001205290470136,
+      "D_minus_B": -0.18375877644267824,
+      "D_minus_A": 0.0259814453522198
+    },
+    {
+      "selection_order": 36,
+      "month": 4,
+      "pmcid": "PMC8262156",
+      "target_token_count": 20,
+      "mean_nll": {
+        "A_original": 3.346138903638348,
+        "B_original_shuffle_seed42": 3.766237834732965,
+        "D_complete_shuffle_seed42": 3.248877985717263,
+        "E_original_rules_D_relative_order": 3.849629404775624
+      },
+      "D_minus_E": -0.6007514190583607,
+      "D_minus_B": -0.5173598490157016,
+      "D_minus_A": -0.09726091792108482
+    },
+    {
+      "selection_order": 37,
+      "month": 4,
+      "pmcid": "PMC8450152",
+      "target_token_count": 33,
+      "mean_nll": {
+        "A_original": 1.9238529189804632,
+        "B_original_shuffle_seed42": 2.3613160573623837,
+        "D_complete_shuffle_seed42": 2.0188996788012004,
+        "E_original_rules_D_relative_order": 2.2629160665372074
+      },
+      "D_minus_E": -0.2440163877360071,
+      "D_minus_B": -0.34241637856118334,
+      "D_minus_A": 0.09504675982073718
+    },
+    {
+      "selection_order": 38,
+      "month": 4,
+      "pmcid": "PMC8167502",
+      "target_token_count": 56,
+      "mean_nll": {
+        "A_original": 2.894725528321682,
+        "B_original_shuffle_seed42": 2.9391487343704545,
+        "D_complete_shuffle_seed42": 2.912615088536508,
+        "E_original_rules_D_relative_order": 2.9254796004559984
+      },
+      "D_minus_E": -0.01286451191949034,
+      "D_minus_B": -0.026533645833946462,
+      "D_minus_A": 0.017889560214825906
+    },
+    {
+      "selection_order": 39,
+      "month": 4,
+      "pmcid": "PMC8205412",
+      "target_token_count": 19,
+      "mean_nll": {
+        "A_original": 3.1753593058827776,
+        "B_original_shuffle_seed42": 3.8177729957786046,
+        "D_complete_shuffle_seed42": 3.245618025796782,
+        "E_original_rules_D_relative_order": 3.605488077884442
+      },
+      "D_minus_E": -0.3598700520876599,
+      "D_minus_B": -0.5721549699818227,
+      "D_minus_A": 0.07025871991400434
+    },
+    {
+      "selection_order": 40,
+      "month": 4,
+      "pmcid": "PMC8494260",
+      "target_token_count": 26,
+      "mean_nll": {
+        "A_original": 2.9960891169133763,
+        "B_original_shuffle_seed42": 3.4432898817377953,
+        "D_complete_shuffle_seed42": 3.0213317133423585,
+        "E_original_rules_D_relative_order": 3.568331383475407
+      },
+      "D_minus_E": -0.5469996701330486,
+      "D_minus_B": -0.42195816839543676,
+      "D_minus_A": 0.02524259642898219
+    },
+    {
+      "selection_order": 41,
+      "month": 5,
+      "pmcid": "PMC8192595",
+      "target_token_count": 59,
+      "mean_nll": {
+        "A_original": 2.10096807806264,
+        "B_original_shuffle_seed42": 2.327078350845791,
+        "D_complete_shuffle_seed42": 2.0588894013279586,
+        "E_original_rules_D_relative_order": 2.427759181290531
+      },
+      "D_minus_E": -0.3688697799625724,
+      "D_minus_B": -0.26818894951783223,
+      "D_minus_A": -0.04207867673468124
+    },
+    {
+      "selection_order": 42,
+      "month": 5,
+      "pmcid": "PMC10460217",
+      "target_token_count": 24,
+      "mean_nll": {
+        "A_original": 2.7938094869884176,
+        "B_original_shuffle_seed42": 3.2239722093915284,
+        "D_complete_shuffle_seed42": 2.980813200112607,
+        "E_original_rules_D_relative_order": 3.2236037499939507
+      },
+      "D_minus_E": -0.24279054988134385,
+      "D_minus_B": -0.24315900927892153,
+      "D_minus_A": 0.18700371312418929
+    },
+    {
+      "selection_order": 43,
+      "month": 5,
+      "pmcid": "PMC8192886",
+      "target_token_count": 29,
+      "mean_nll": {
+        "A_original": 2.517949757168716,
+        "B_original_shuffle_seed42": 2.7349329391687083,
+        "D_complete_shuffle_seed42": 2.6487577527897948,
+        "E_original_rules_D_relative_order": 2.645599996052875
+      },
+      "D_minus_E": 0.003157756736919648,
+      "D_minus_B": -0.08617518637891353,
+      "D_minus_A": 0.1308079956210788
+    },
+    {
+      "selection_order": 44,
+      "month": 5,
+      "pmcid": "PMC8298053",
+      "target_token_count": 44,
+      "mean_nll": {
+        "A_original": 2.540996586484074,
+        "B_original_shuffle_seed42": 2.7940417363720784,
+        "D_complete_shuffle_seed42": 2.5622438717532945,
+        "E_original_rules_D_relative_order": 2.7933378204129853
+      },
+      "D_minus_E": -0.2310939486596908,
+      "D_minus_B": -0.23179786461878393,
+      "D_minus_A": 0.021247285269220484
+    },
+    {
+      "selection_order": 45,
+      "month": 5,
+      "pmcid": "PMC8224511",
+      "target_token_count": 36,
+      "mean_nll": {
+        "A_original": 2.9582858090838675,
+        "B_original_shuffle_seed42": 3.2247430570132565,
+        "D_complete_shuffle_seed42": 3.129716221404831,
+        "E_original_rules_D_relative_order": 3.2719199748017775
+      },
+      "D_minus_E": -0.14220375339694646,
+      "D_minus_B": -0.0950268356084254,
+      "D_minus_A": 0.17143041232096357
+    },
+    {
+      "selection_order": 46,
+      "month": 5,
+      "pmcid": "PMC8326699",
+      "target_token_count": 28,
+      "mean_nll": {
+        "A_original": 2.5840077535914525,
+        "B_original_shuffle_seed42": 2.625889613958342,
+        "D_complete_shuffle_seed42": 2.611110125402255,
+        "E_original_rules_D_relative_order": 2.564330900154476
+      },
+      "D_minus_E": 0.046779225247779,
+      "D_minus_B": -0.014779488556087017,
+      "D_minus_A": 0.027102371810802328
+    },
+    {
+      "selection_order": 47,
+      "month": 5,
+      "pmcid": "PMC8218628",
+      "target_token_count": 19,
+      "mean_nll": {
+        "A_original": 3.2482222318243372,
+        "B_original_shuffle_seed42": 4.115026498234664,
+        "D_complete_shuffle_seed42": 3.704953329860425,
+        "E_original_rules_D_relative_order": 4.220426908992761
+      },
+      "D_minus_E": -0.5154735791323359,
+      "D_minus_B": -0.4100731683742387,
+      "D_minus_A": 0.4567310980360877
+    },
+    {
+      "selection_order": 48,
+      "month": 5,
+      "pmcid": "PMC8550431",
+      "target_token_count": 63,
+      "mean_nll": {
+        "A_original": 3.137956850600266,
+        "B_original_shuffle_seed42": 3.406609951761932,
+        "D_complete_shuffle_seed42": 3.2718841788707307,
+        "E_original_rules_D_relative_order": 3.437863543511383
+      },
+      "D_minus_E": -0.16597936464065244,
+      "D_minus_B": -0.13472577289120125,
+      "D_minus_A": 0.1339273282704645
+    },
+    {
+      "selection_order": 49,
+      "month": 5,
+      "pmcid": "PMC8184339",
+      "target_token_count": 29,
+      "mean_nll": {
+        "A_original": 2.405007017273451,
+        "B_original_shuffle_seed42": 2.9281533497964403,
+        "D_complete_shuffle_seed42": 2.5652281350809565,
+        "E_original_rules_D_relative_order": 2.935541233228299
+      },
+      "D_minus_E": -0.3703130981473426,
+      "D_minus_B": -0.3629252147154838,
+      "D_minus_A": 0.16022111780750548
+    },
+    {
+      "selection_order": 50,
+      "month": 5,
+      "pmcid": "PMC8974720",
+      "target_token_count": 24,
+      "mean_nll": {
+        "A_original": 2.024805529819029,
+        "B_original_shuffle_seed42": 2.292270403263803,
+        "D_complete_shuffle_seed42": 2.012741231320433,
+        "E_original_rules_D_relative_order": 2.3239457132925345
+      },
+      "D_minus_E": -0.3112044819721014,
+      "D_minus_B": -0.2795291719433699,
+      "D_minus_A": -0.012064298498595694
+    },
+    {
+      "selection_order": 51,
+      "month": 6,
+      "pmcid": "PMC8649966",
+      "target_token_count": 40,
+      "mean_nll": {
+        "A_original": 2.288101549547082,
+        "B_original_shuffle_seed42": 2.30690886764055,
+        "D_complete_shuffle_seed42": 2.2836003871860155,
+        "E_original_rules_D_relative_order": 2.3923873679606005
+      },
+      "D_minus_E": -0.10878698077458493,
+      "D_minus_B": -0.023308480454534486,
+      "D_minus_A": -0.0045011623610662355
+    },
+    {
+      "selection_order": 52,
+      "month": 6,
+      "pmcid": "PMC8565258",
+      "target_token_count": 24,
+      "mean_nll": {
+        "A_original": 3.0215353956252025,
+        "B_original_shuffle_seed42": 3.1539307293714955,
+        "D_complete_shuffle_seed42": 3.0424492530097873,
+        "E_original_rules_D_relative_order": 3.1851204779813997
+      },
+      "D_minus_E": -0.14267122497161244,
+      "D_minus_B": -0.11148147636170824,
+      "D_minus_A": 0.020913857384584844
+    },
+    {
+      "selection_order": 53,
+      "month": 6,
+      "pmcid": "PMC8607302",
+      "target_token_count": 38,
+      "mean_nll": {
+        "A_original": 3.094700812607215,
+        "B_original_shuffle_seed42": 3.689852634039725,
+        "D_complete_shuffle_seed42": 3.2400194538145355,
+        "E_original_rules_D_relative_order": 3.486689117412329
+      },
+      "D_minus_E": -0.2466696635977934,
+      "D_minus_B": -0.44983318022518937,
+      "D_minus_A": 0.14531864120732063
+    },
+    {
+      "selection_order": 54,
+      "month": 6,
+      "pmcid": "PMC8545187",
+      "target_token_count": 31,
+      "mean_nll": {
+        "A_original": 4.03567945087124,
+        "B_original_shuffle_seed42": 4.019063377770382,
+        "D_complete_shuffle_seed42": 4.018228062964186,
+        "E_original_rules_D_relative_order": 4.126273549679999
+      },
+      "D_minus_E": -0.10804548671581227,
+      "D_minus_B": -0.0008353148061956972,
+      "D_minus_A": -0.017451387907053473
+    },
+    {
+      "selection_order": 55,
+      "month": 6,
+      "pmcid": "PMC8288199",
+      "target_token_count": 30,
+      "mean_nll": {
+        "A_original": 2.3149637798903617,
+        "B_original_shuffle_seed42": 2.5015547135369465,
+        "D_complete_shuffle_seed42": 2.4720740369801204,
+        "E_original_rules_D_relative_order": 2.6807176722719306
+      },
+      "D_minus_E": -0.20864363529181018,
+      "D_minus_B": -0.02948067655682607,
+      "D_minus_A": 0.15711025708975868
+    },
+    {
+      "selection_order": 56,
+      "month": 6,
+      "pmcid": "PMC10499212",
+      "target_token_count": 23,
+      "mean_nll": {
+        "A_original": 2.8477568792418624,
+        "B_original_shuffle_seed42": 3.3754445753021054,
+        "D_complete_shuffle_seed42": 2.9360751384011445,
+        "E_original_rules_D_relative_order": 3.6000381229172014
+      },
+      "D_minus_E": -0.6639629845160568,
+      "D_minus_B": -0.43936943690096086,
+      "D_minus_A": 0.08831825915928215
+    },
+    {
+      "selection_order": 57,
+      "month": 6,
+      "pmcid": "PMC8263279",
+      "target_token_count": 33,
+      "mean_nll": {
+        "A_original": 3.063723697424724,
+        "B_original_shuffle_seed42": 3.4608216422809273,
+        "D_complete_shuffle_seed42": 3.231871797960456,
+        "E_original_rules_D_relative_order": 3.4084364236980145
+      },
+      "D_minus_E": -0.1765646257375586,
+      "D_minus_B": -0.22894984432047139,
+      "D_minus_A": 0.1681481005357317
+    },
+    {
+      "selection_order": 58,
+      "month": 6,
+      "pmcid": "PMC8335636",
+      "target_token_count": 39,
+      "mean_nll": {
+        "A_original": 2.8038738426940446,
+        "B_original_shuffle_seed42": 3.013064946474818,
+        "D_complete_shuffle_seed42": 2.832162366126282,
+        "E_original_rules_D_relative_order": 2.9713373904292566
+      },
+      "D_minus_E": -0.13917502430297457,
+      "D_minus_B": -0.180902580348536,
+      "D_minus_A": 0.028288523432237422
+    },
+    {
+      "selection_order": 59,
+      "month": 6,
+      "pmcid": "PMC10353603",
+      "target_token_count": 23,
+      "mean_nll": {
+        "A_original": 4.231700759639194,
+        "B_original_shuffle_seed42": 4.62211141167411,
+        "D_complete_shuffle_seed42": 4.058056979379415,
+        "E_original_rules_D_relative_order": 4.409505385098189
+      },
+      "D_minus_E": -0.35144840571877456,
+      "D_minus_B": -0.5640544322946957,
+      "D_minus_A": -0.17364378025977967
+    },
+    {
+      "selection_order": 60,
+      "month": 6,
+      "pmcid": "PMC9580740",
+      "target_token_count": 57,
+      "mean_nll": {
+        "A_original": 1.7467238010489892,
+        "B_original_shuffle_seed42": 1.657617069606395,
+        "D_complete_shuffle_seed42": 1.711763924525114,
+        "E_original_rules_D_relative_order": 1.8172260348150495
+      },
+      "D_minus_E": -0.10546211028993557,
+      "D_minus_B": 0.054146854918718956,
+      "D_minus_A": -0.03495987652387522
+    },
+    {
+      "selection_order": 61,
+      "month": 7,
+      "pmcid": "PMC8464200",
+      "target_token_count": 21,
+      "mean_nll": {
+        "A_original": 3.347459560398853,
+        "B_original_shuffle_seed42": 3.279315361576924,
+        "D_complete_shuffle_seed42": 3.2868560341497264,
+        "E_original_rules_D_relative_order": 3.197755509550916
+      },
+      "D_minus_E": 0.08910052459881035,
+      "D_minus_B": 0.007540672572802443,
+      "D_minus_A": -0.06060352624912646
+    },
+    {
+      "selection_order": 62,
+      "month": 7,
+      "pmcid": "PMC8280606",
+      "target_token_count": 41,
+      "mean_nll": {
+        "A_original": 1.891103810398618,
+        "B_original_shuffle_seed42": 2.052018954717313,
+        "D_complete_shuffle_seed42": 1.941937217023756,
+        "E_original_rules_D_relative_order": 2.04080658595061
+      },
+      "D_minus_E": -0.09886936892685405,
+      "D_minus_B": -0.110081737693557,
+      "D_minus_A": 0.05083340662513813
+    },
+    {
+      "selection_order": 63,
+      "month": 7,
+      "pmcid": "PMC9642923",
+      "target_token_count": 37,
+      "mean_nll": {
+        "A_original": 2.318523951359345,
+        "B_original_shuffle_seed42": 2.380145931901171,
+        "D_complete_shuffle_seed42": 2.387796021546426,
+        "E_original_rules_D_relative_order": 2.4161723072804207
+      },
+      "D_minus_E": -0.028376285733994866,
+      "D_minus_B": 0.00765008964525471,
+      "D_minus_A": 0.06927207018708081
+    },
+    {
+      "selection_order": 64,
+      "month": 7,
+      "pmcid": "PMC8358436",
+      "target_token_count": 16,
+      "mean_nll": {
+        "A_original": 3.099273646988866,
+        "B_original_shuffle_seed42": 3.149729229656373,
+        "D_complete_shuffle_seed42": 3.084495707400265,
+        "E_original_rules_D_relative_order": 3.218751353493893
+      },
+      "D_minus_E": -0.13425564609362794,
+      "D_minus_B": -0.06523352225610779,
+      "D_minus_A": -0.014777939588601186
+    },
+    {
+      "selection_order": 65,
+      "month": 7,
+      "pmcid": "PMC8427546",
+      "target_token_count": 28,
+      "mean_nll": {
+        "A_original": 2.3192286238853677,
+        "B_original_shuffle_seed42": 2.539894773104931,
+        "D_complete_shuffle_seed42": 2.3850616633436794,
+        "E_original_rules_D_relative_order": 2.521204314889019
+      },
+      "D_minus_E": -0.13614265154533944,
+      "D_minus_B": -0.15483310976125164,
+      "D_minus_A": 0.06583303945831176
+    },
+    {
+      "selection_order": 66,
+      "month": 7,
+      "pmcid": "PMC8334628",
+      "target_token_count": 41,
+      "mean_nll": {
+        "A_original": 3.6715258609520545,
+        "B_original_shuffle_seed42": 4.015126810022971,
+        "D_complete_shuffle_seed42": 3.82065954627242,
+        "E_original_rules_D_relative_order": 4.008482405438837
+      },
+      "D_minus_E": -0.18782285916641683,
+      "D_minus_B": -0.19446726375055068,
+      "D_minus_A": 0.14913368532036575
+    },
+    {
+      "selection_order": 67,
+      "month": 7,
+      "pmcid": "PMC8395890",
+      "target_token_count": 205,
+      "mean_nll": {
+        "A_original": 3.041649767238068,
+        "B_original_shuffle_seed42": 3.094410649903609,
+        "D_complete_shuffle_seed42": 3.0443712495154527,
+        "E_original_rules_D_relative_order": 3.091832835381626
+      },
+      "D_minus_E": -0.047461585866173106,
+      "D_minus_B": -0.05003940038815635,
+      "D_minus_A": 0.00272148227738489
+    },
+    {
+      "selection_order": 68,
+      "month": 7,
+      "pmcid": "PMC8387691",
+      "target_token_count": 17,
+      "mean_nll": {
+        "A_original": 3.0257804994197453,
+        "B_original_shuffle_seed42": 2.793348086641773,
+        "D_complete_shuffle_seed42": 2.9329600594663883,
+        "E_original_rules_D_relative_order": 2.7512554769020747
+      },
+      "D_minus_E": 0.18170458256431354,
+      "D_minus_B": 0.13961197282461546,
+      "D_minus_A": -0.09282043995335698
+    },
+    {
+      "selection_order": 69,
+      "month": 7,
+      "pmcid": "PMC11524280",
+      "target_token_count": 58,
+      "mean_nll": {
+        "A_original": 2.189950781402801,
+        "B_original_shuffle_seed42": 2.438630404087956,
+        "D_complete_shuffle_seed42": 2.2411135198112317,
+        "E_original_rules_D_relative_order": 2.4145090872417656
+      },
+      "D_minus_E": -0.17339556743053386,
+      "D_minus_B": -0.1975168842767241,
+      "D_minus_A": 0.05116273840843055
+    },
+    {
+      "selection_order": 70,
+      "month": 7,
+      "pmcid": "PMC8374633",
+      "target_token_count": 27,
+      "mean_nll": {
+        "A_original": 4.577718247969945,
+        "B_original_shuffle_seed42": 4.674867430218944,
+        "D_complete_shuffle_seed42": 4.602606082611062,
+        "E_original_rules_D_relative_order": 4.52674823673442
+      },
+      "D_minus_E": 0.07585784587664168,
+      "D_minus_B": -0.07226134760788216,
+      "D_minus_A": 0.02488783464111677
+    },
+    {
+      "selection_order": 71,
+      "month": 8,
+      "pmcid": "PMC8415285",
+      "target_token_count": 23,
+      "mean_nll": {
+        "A_original": 2.776731129621824,
+        "B_original_shuffle_seed42": 3.1691790720332116,
+        "D_complete_shuffle_seed42": 2.966158306930953,
+        "E_original_rules_D_relative_order": 3.2002629183533946
+      },
+      "D_minus_E": -0.23410461142244143,
+      "D_minus_B": -0.20302076510225842,
+      "D_minus_A": 0.1894271773091294
+    },
+    {
+      "selection_order": 72,
+      "month": 8,
+      "pmcid": "PMC8550493",
+      "target_token_count": 23,
+      "mean_nll": {
+        "A_original": 2.382207684180922,
+        "B_original_shuffle_seed42": 2.744534605602815,
+        "D_complete_shuffle_seed42": 2.582532580901423,
+        "E_original_rules_D_relative_order": 3.009795854936111
+      },
+      "D_minus_E": -0.4272632740346878,
+      "D_minus_B": -0.1620020247013918,
+      "D_minus_A": 0.20032489672050113
+    },
+    {
+      "selection_order": 73,
+      "month": 8,
+      "pmcid": "PMC8438445",
+      "target_token_count": 46,
+      "mean_nll": {
+        "A_original": 2.9051890231184307,
+        "B_original_shuffle_seed42": 3.0744394266461628,
+        "D_complete_shuffle_seed42": 2.9116287071273015,
+        "E_original_rules_D_relative_order": 3.059291049468574
+      },
+      "D_minus_E": -0.14766234234127262,
+      "D_minus_B": -0.16281071951886128,
+      "D_minus_A": 0.0064396840088707386
+    },
+    {
+      "selection_order": 74,
+      "month": 8,
+      "pmcid": "PMC8428285",
+      "target_token_count": 21,
+      "mean_nll": {
+        "A_original": 2.049695734785384,
+        "B_original_shuffle_seed42": 2.3658261746862763,
+        "D_complete_shuffle_seed42": 2.2092632845297193,
+        "E_original_rules_D_relative_order": 2.2486451430045236
+      },
+      "D_minus_E": -0.03938185847480424,
+      "D_minus_B": -0.156562890156557,
+      "D_minus_A": 0.1595675497443354
+    },
+    {
+      "selection_order": 75,
+      "month": 8,
+      "pmcid": "PMC8498669",
+      "target_token_count": 12,
+      "mean_nll": {
+        "A_original": 3.3932767868876303,
+        "B_original_shuffle_seed42": 3.897087058624796,
+        "D_complete_shuffle_seed42": 3.520398142210979,
+        "E_original_rules_D_relative_order": 3.969450315992314
+      },
+      "D_minus_E": -0.44905217378133466,
+      "D_minus_B": -0.37668891641381697,
+      "D_minus_A": 0.12712135532334878
+    },
+    {
+      "selection_order": 76,
+      "month": 8,
+      "pmcid": "PMC8426026",
+      "target_token_count": 20,
+      "mean_nll": {
+        "A_original": 3.0372252707369625,
+        "B_original_shuffle_seed42": 3.142913306236733,
+        "D_complete_shuffle_seed42": 3.072628345852718,
+        "E_original_rules_D_relative_order": 3.2362592240737285
+      },
+      "D_minus_E": -0.16363087822101052,
+      "D_minus_B": -0.070284960384015,
+      "D_minus_A": 0.03540307511575547
+    },
+    {
+      "selection_order": 77,
+      "month": 8,
+      "pmcid": "PMC8442733",
+      "target_token_count": 24,
+      "mean_nll": {
+        "A_original": 2.7939055937366297,
+        "B_original_shuffle_seed42": 2.8741485443582255,
+        "D_complete_shuffle_seed42": 2.847734096823236,
+        "E_original_rules_D_relative_order": 3.0700746066425686
+      },
+      "D_minus_E": -0.2223405098193325,
+      "D_minus_B": -0.02641444753498945,
+      "D_minus_A": 0.05382850308660636
+    },
+    {
+      "selection_order": 78,
+      "month": 8,
+      "pmcid": "PMC8426568",
+      "target_token_count": 39,
+      "mean_nll": {
+        "A_original": 3.4569914685312257,
+        "B_original_shuffle_seed42": 4.345536803480429,
+        "D_complete_shuffle_seed42": 3.8484300727424667,
+        "E_original_rules_D_relative_order": 4.192410613063914
+      },
+      "D_minus_E": -0.3439805403214473,
+      "D_minus_B": -0.4971067307379622,
+      "D_minus_A": 0.391438604211241
+    },
+    {
+      "selection_order": 79,
+      "month": 8,
+      "pmcid": "PMC8547222",
+      "target_token_count": 44,
+      "mean_nll": {
+        "A_original": 2.99828873732159,
+        "B_original_shuffle_seed42": 3.551355572142215,
+        "D_complete_shuffle_seed42": 3.179323082974985,
+        "E_original_rules_D_relative_order": 3.477500001757025
+      },
+      "D_minus_E": -0.29817691878204,
+      "D_minus_B": -0.3720324891672302,
+      "D_minus_A": 0.1810343456533947
+    },
+    {
+      "selection_order": 80,
+      "month": 8,
+      "pmcid": "PMC8350932",
+      "target_token_count": 46,
+      "mean_nll": {
+        "A_original": 3.310680494114501,
+        "B_original_shuffle_seed42": 3.5296320754407686,
+        "D_complete_shuffle_seed42": 3.4134198539990313,
+        "E_original_rules_D_relative_order": 3.479392972570444
+      },
+      "D_minus_E": -0.06597311857141275,
+      "D_minus_B": -0.11621222144173737,
+      "D_minus_A": 0.10273935988453031
+    },
+    {
+      "selection_order": 81,
+      "month": 9,
+      "pmcid": "PMC8823494",
+      "target_token_count": 26,
+      "mean_nll": {
+        "A_original": 2.577218380308925,
+        "B_original_shuffle_seed42": 3.1432673565398614,
+        "D_complete_shuffle_seed42": 2.5671316124498844,
+        "E_original_rules_D_relative_order": 3.1700062902751736
+      },
+      "D_minus_E": -0.6028746778252891,
+      "D_minus_B": -0.576135744089977,
+      "D_minus_A": -0.010086767859040613
+    },
+    {
+      "selection_order": 82,
+      "month": 9,
+      "pmcid": "PMC8548889",
+      "target_token_count": 84,
+      "mean_nll": {
+        "A_original": 2.569137906692677,
+        "B_original_shuffle_seed42": 2.831670867938079,
+        "D_complete_shuffle_seed42": 2.8057932396197343,
+        "E_original_rules_D_relative_order": 2.8941044858455003
+      },
+      "D_minus_E": -0.08831124622576603,
+      "D_minus_B": -0.025877628318344836,
+      "D_minus_A": 0.23665533292705732
+    },
+    {
+      "selection_order": 83,
+      "month": 9,
+      "pmcid": "PMC8532178",
+      "target_token_count": 20,
+      "mean_nll": {
+        "A_original": 3.099218303418945,
+        "B_original_shuffle_seed42": 3.474159000128566,
+        "D_complete_shuffle_seed42": 3.2730114376458004,
+        "E_original_rules_D_relative_order": 3.448036798791145
+      },
+      "D_minus_E": -0.1750253611453445,
+      "D_minus_B": -0.20114756248276544,
+      "D_minus_A": 0.17379313422685527
+    },
+    {
+      "selection_order": 84,
+      "month": 9,
+      "pmcid": "PMC8575360",
+      "target_token_count": 29,
+      "mean_nll": {
+        "A_original": 2.76928104845194,
+        "B_original_shuffle_seed42": 2.6988790737606028,
+        "D_complete_shuffle_seed42": 2.8329443602939013,
+        "E_original_rules_D_relative_order": 2.700305002908361
+      },
+      "D_minus_E": 0.13263935738554045,
+      "D_minus_B": 0.13406528653329852,
+      "D_minus_A": 0.06366331184196117
+    },
+    {
+      "selection_order": 85,
+      "month": 9,
+      "pmcid": "PMC8546357",
+      "target_token_count": 36,
+      "mean_nll": {
+        "A_original": 2.8943392884814076,
+        "B_original_shuffle_seed42": 3.1130012878889426,
+        "D_complete_shuffle_seed42": 2.9913369552361675,
+        "E_original_rules_D_relative_order": 3.148063830475116
+      },
+      "D_minus_E": -0.15672687523894835,
+      "D_minus_B": -0.1216643326527751,
+      "D_minus_A": 0.09699766675475985
+    },
+    {
+      "selection_order": 86,
+      "month": 9,
+      "pmcid": "PMC10936393",
+      "target_token_count": 33,
+      "mean_nll": {
+        "A_original": 3.6396448829539376,
+        "B_original_shuffle_seed42": 3.6737948231907054,
+        "D_complete_shuffle_seed42": 3.630967281603565,
+        "E_original_rules_D_relative_order": 3.6695747382676047
+      },
+      "D_minus_E": -0.03860745666403975,
+      "D_minus_B": -0.042827541587140416,
+      "D_minus_A": -0.008677601350372655
+    },
+    {
+      "selection_order": 87,
+      "month": 9,
+      "pmcid": "PMC8526226",
+      "target_token_count": 18,
+      "mean_nll": {
+        "A_original": 2.776676514910327,
+        "B_original_shuffle_seed42": 2.9641090656320253,
+        "D_complete_shuffle_seed42": 2.8012304285334215,
+        "E_original_rules_D_relative_order": 2.9389381814334126
+      },
+      "D_minus_E": -0.13770775289999104,
+      "D_minus_B": -0.16287863709860373,
+      "D_minus_A": 0.02455391362309456
+    },
+    {
+      "selection_order": 88,
+      "month": 9,
+      "pmcid": "PMC10013050",
+      "target_token_count": 30,
+      "mean_nll": {
+        "A_original": 1.7943704804004785,
+        "B_original_shuffle_seed42": 2.1036786858171883,
+        "D_complete_shuffle_seed42": 1.853107730201494,
+        "E_original_rules_D_relative_order": 2.2026873429170033
+      },
+      "D_minus_E": -0.3495796127155093,
+      "D_minus_B": -0.2505709556156943,
+      "D_minus_A": 0.05873724980101547
+    },
+    {
+      "selection_order": 89,
+      "month": 9,
+      "pmcid": "PMC8771137",
+      "target_token_count": 39,
+      "mean_nll": {
+        "A_original": 2.6618225595712155,
+        "B_original_shuffle_seed42": 2.8621424593192595,
+        "D_complete_shuffle_seed42": 2.867849604912641,
+        "E_original_rules_D_relative_order": 2.9115705832205445
+      },
+      "D_minus_E": -0.04372097830790356,
+      "D_minus_B": 0.00570714559338148,
+      "D_minus_A": 0.20602704534142546
+    },
+    {
+      "selection_order": 90,
+      "month": 9,
+      "pmcid": "PMC8524725",
+      "target_token_count": 15,
+      "mean_nll": {
+        "A_original": 2.927306683796125,
+        "B_original_shuffle_seed42": 3.482144488467323,
+        "D_complete_shuffle_seed42": 3.1040002168815892,
+        "E_original_rules_D_relative_order": 3.468564594391258
+      },
+      "D_minus_E": -0.36456437750966897,
+      "D_minus_B": -0.3781442715857337,
+      "D_minus_A": 0.17669353308546443
+    },
+    {
+      "selection_order": 91,
+      "month": 10,
+      "pmcid": "PMC8581728",
+      "target_token_count": 33,
+      "mean_nll": {
+        "A_original": 4.126182914231762,
+        "B_original_shuffle_seed42": 4.411128993061456,
+        "D_complete_shuffle_seed42": 4.2705845955307735,
+        "E_original_rules_D_relative_order": 4.422940612488398
+      },
+      "D_minus_E": -0.1523560169576248,
+      "D_minus_B": -0.14054439753068237,
+      "D_minus_A": 0.1444016812990112
+    },
+    {
+      "selection_order": 92,
+      "month": 10,
+      "pmcid": "PMC8678629",
+      "target_token_count": 18,
+      "mean_nll": {
+        "A_original": 2.930411530467811,
+        "B_original_shuffle_seed42": 3.286679315616299,
+        "D_complete_shuffle_seed42": 3.236040853744271,
+        "E_original_rules_D_relative_order": 3.388819444025532
+      },
+      "D_minus_E": -0.15277859028126128,
+      "D_minus_B": -0.05063846187202792,
+      "D_minus_A": 0.30562932327646
+    },
+    {
+      "selection_order": 93,
+      "month": 10,
+      "pmcid": "PMC8578993",
+      "target_token_count": 14,
+      "mean_nll": {
+        "A_original": 2.9838746773353444,
+        "B_original_shuffle_seed42": 2.7867150492300943,
+        "D_complete_shuffle_seed42": 2.977114433888346,
+        "E_original_rules_D_relative_order": 2.940589376045474
+      },
+      "D_minus_E": 0.036525057842871966,
+      "D_minus_B": 0.19039938465825168,
+      "D_minus_A": -0.006760243446998437
+    },
+    {
+      "selection_order": 94,
+      "month": 10,
+      "pmcid": "PMC8714178",
+      "target_token_count": 42,
+      "mean_nll": {
+        "A_original": 2.960999062547395,
+        "B_original_shuffle_seed42": 3.409423930352746,
+        "D_complete_shuffle_seed42": 3.169249849111241,
+        "E_original_rules_D_relative_order": 3.3541217708400275
+      },
+      "D_minus_E": -0.18487192172878641,
+      "D_minus_B": -0.24017408124150474,
+      "D_minus_A": 0.2082507865638461
+    },
+    {
+      "selection_order": 95,
+      "month": 10,
+      "pmcid": "PMC8678059",
+      "target_token_count": 42,
+      "mean_nll": {
+        "A_original": 2.452366654769451,
+        "B_original_shuffle_seed42": 2.2781275348347014,
+        "D_complete_shuffle_seed42": 2.219489726055014,
+        "E_original_rules_D_relative_order": 2.4810574204588884
+      },
+      "D_minus_E": -0.2615676944038743,
+      "D_minus_B": -0.05863780877968727,
+      "D_minus_A": -0.232876928714437
+    },
+    {
+      "selection_order": 96,
+      "month": 10,
+      "pmcid": "PMC8621619",
+      "target_token_count": 25,
+      "mean_nll": {
+        "A_original": 1.554061978240277,
+        "B_original_shuffle_seed42": 1.5451899378038434,
+        "D_complete_shuffle_seed42": 1.7354759344202646,
+        "E_original_rules_D_relative_order": 1.6135267456388465
+      },
+      "D_minus_E": 0.12194918878141814,
+      "D_minus_B": 0.1902859966164212,
+      "D_minus_A": 0.18141395617998768
+    },
+    {
+      "selection_order": 97,
+      "month": 10,
+      "pmcid": "PMC8585985",
+      "target_token_count": 18,
+      "mean_nll": {
+        "A_original": 3.442838600371033,
+        "B_original_shuffle_seed42": 3.6060379763884054,
+        "D_complete_shuffle_seed42": 3.681603998734823,
+        "E_original_rules_D_relative_order": 3.7029297777820225
+      },
+      "D_minus_E": -0.021325779047199678,
+      "D_minus_B": 0.0755660223464174,
+      "D_minus_A": 0.23876539836378985
+    },
+    {
+      "selection_order": 98,
+      "month": 10,
+      "pmcid": "PMC8581449",
+      "target_token_count": 26,
+      "mean_nll": {
+        "A_original": 2.473783357516438,
+        "B_original_shuffle_seed42": 2.808560711878482,
+        "D_complete_shuffle_seed42": 2.5254323200630235,
+        "E_original_rules_D_relative_order": 2.848766365910146
+      },
+      "D_minus_E": -0.32333404584712255,
+      "D_minus_B": -0.28312839181545835,
+      "D_minus_A": 0.051648962546585686
+    },
+    {
+      "selection_order": 99,
+      "month": 10,
+      "pmcid": "PMC8581611",
+      "target_token_count": 80,
+      "mean_nll": {
+        "A_original": 1.373786301979591,
+        "B_original_shuffle_seed42": 1.4489381166180606,
+        "D_complete_shuffle_seed42": 1.418646074198017,
+        "E_original_rules_D_relative_order": 1.533404306481242
+      },
+      "D_minus_E": -0.11475823228322501,
+      "D_minus_B": -0.030292042420043686,
+      "D_minus_A": 0.04485977221842585
+    },
+    {
+      "selection_order": 100,
+      "month": 10,
+      "pmcid": "PMC8886688",
+      "target_token_count": 72,
+      "mean_nll": {
+        "A_original": 1.8785964176753902,
+        "B_original_shuffle_seed42": 2.102261505681958,
+        "D_complete_shuffle_seed42": 1.9730092703443916,
+        "E_original_rules_D_relative_order": 2.1039449207146896
+      },
+      "D_minus_E": -0.13093565037029808,
+      "D_minus_B": -0.12925223533756647,
+      "D_minus_A": 0.09441285266900135
+    },
+    {
+      "selection_order": 101,
+      "month": 11,
+      "pmcid": "PMC8669392",
+      "target_token_count": 36,
+      "mean_nll": {
+        "A_original": 2.732304105789,
+        "B_original_shuffle_seed42": 3.133215612079463,
+        "D_complete_shuffle_seed42": 2.8347328952416624,
+        "E_original_rules_D_relative_order": 3.1378339934243638
+      },
+      "D_minus_E": -0.30310109818270137,
+      "D_minus_B": -0.2984827168378006,
+      "D_minus_A": 0.10242878945266254
+    },
+    {
+      "selection_order": 102,
+      "month": 11,
+      "pmcid": "PMC8840875",
+      "target_token_count": 36,
+      "mean_nll": {
+        "A_original": 1.669087393004146,
+        "B_original_shuffle_seed42": 2.1972489142586307,
+        "D_complete_shuffle_seed42": 1.9141709707305887,
+        "E_original_rules_D_relative_order": 2.1238784485281537
+      },
+      "D_minus_E": -0.20970747779756493,
+      "D_minus_B": -0.28307794352804194,
+      "D_minus_A": 0.24508357772644263
+    },
+    {
+      "selection_order": 103,
+      "month": 11,
+      "pmcid": "PMC10021308",
+      "target_token_count": 39,
+      "mean_nll": {
+        "A_original": 3.3859842284701958,
+        "B_original_shuffle_seed42": 4.09720964765606,
+        "D_complete_shuffle_seed42": 3.8288401196388384,
+        "E_original_rules_D_relative_order": 4.142951173600382
+      },
+      "D_minus_E": -0.3141110539615437,
+      "D_minus_B": -0.26836952801722136,
+      "D_minus_A": 0.44285589116864266
+    },
+    {
+      "selection_order": 104,
+      "month": 11,
+      "pmcid": "PMC8655126",
+      "target_token_count": 17,
+      "mean_nll": {
+        "A_original": 2.5952756386362608,
+        "B_original_shuffle_seed42": 2.6128077326318495,
+        "D_complete_shuffle_seed42": 2.71222666323357,
+        "E_original_rules_D_relative_order": 2.6130711464023024
+      },
+      "D_minus_E": 0.09915551683126766,
+      "D_minus_B": 0.09941893060172058,
+      "D_minus_A": 0.11695102459730933
+    },
+    {
+      "selection_order": 105,
+      "month": 11,
+      "pmcid": "PMC10390303",
+      "target_token_count": 21,
+      "mean_nll": {
+        "A_original": 3.791931669947059,
+        "B_original_shuffle_seed42": 3.776334701444111,
+        "D_complete_shuffle_seed42": 3.7559495064363415,
+        "E_original_rules_D_relative_order": 3.757124220985653
+      },
+      "D_minus_E": -0.0011747145493115063,
+      "D_minus_B": -0.020385195007769585,
+      "D_minus_A": -0.03598216351071759
+    },
+    {
+      "selection_order": 106,
+      "month": 11,
+      "pmcid": "PMC8753408",
+      "target_token_count": 27,
+      "mean_nll": {
+        "A_original": 2.9675373657152737,
+        "B_original_shuffle_seed42": 3.437300793667722,
+        "D_complete_shuffle_seed42": 3.2119484009626493,
+        "E_original_rules_D_relative_order": 3.3391584281257733
+      },
+      "D_minus_E": -0.12721002716312402,
+      "D_minus_B": -0.22535239270507246,
+      "D_minus_A": 0.24441103524737562
+    },
+    {
+      "selection_order": 107,
+      "month": 11,
+      "pmcid": "PMC8720896",
+      "target_token_count": 10,
+      "mean_nll": {
+        "A_original": 5.7465665459632875,
+        "B_original_shuffle_seed42": 5.599376249313354,
+        "D_complete_shuffle_seed42": 5.681973290443421,
+        "E_original_rules_D_relative_order": 5.771279394626617
+      },
+      "D_minus_E": -0.08930610418319684,
+      "D_minus_B": 0.08259704113006627,
+      "D_minus_A": -0.06459325551986694
+    },
+    {
+      "selection_order": 108,
+      "month": 11,
+      "pmcid": "PMC8665347",
+      "target_token_count": 79,
+      "mean_nll": {
+        "A_original": 2.562864233586269,
+        "B_original_shuffle_seed42": 2.7936375840868957,
+        "D_complete_shuffle_seed42": 2.6819542314329463,
+        "E_original_rules_D_relative_order": 2.7988623863918143
+      },
+      "D_minus_E": -0.11690815495886797,
+      "D_minus_B": -0.11168335265394935,
+      "D_minus_A": 0.11908999784667751
+    },
+    {
+      "selection_order": 109,
+      "month": 11,
+      "pmcid": "PMC9338743",
+      "target_token_count": 13,
+      "mean_nll": {
+        "A_original": 2.8651366974585333,
+        "B_original_shuffle_seed42": 3.1871735244416275,
+        "D_complete_shuffle_seed42": 2.93526097960197,
+        "E_original_rules_D_relative_order": 3.4863892287875595
+      },
+      "D_minus_E": -0.5511282491855893,
+      "D_minus_B": -0.2519125448396573,
+      "D_minus_A": 0.07012428214343691
+    },
+    {
+      "selection_order": 110,
+      "month": 11,
+      "pmcid": "PMC8656164",
+      "target_token_count": 38,
+      "mean_nll": {
+        "A_original": 2.9142236237323806,
+        "B_original_shuffle_seed42": 3.5524194438414844,
+        "D_complete_shuffle_seed42": 2.9412445511138925,
+        "E_original_rules_D_relative_order": 3.029943432824343
+      },
+      "D_minus_E": -0.08869888171045037,
+      "D_minus_B": -0.611174892727592,
+      "D_minus_A": 0.02702092738151185
+    },
+    {
+      "selection_order": 111,
+      "month": 12,
+      "pmcid": "PMC8767426",
+      "target_token_count": 90,
+      "mean_nll": {
+        "A_original": 1.847590579993549,
+        "B_original_shuffle_seed42": 1.9602367535525143,
+        "D_complete_shuffle_seed42": 1.962703066520751,
+        "E_original_rules_D_relative_order": 2.0125772210481148
+      },
+      "D_minus_E": -0.04987415452736377,
+      "D_minus_B": 0.002466312968236739,
+      "D_minus_A": 0.11511248652720196
+    },
+    {
+      "selection_order": 112,
+      "month": 12,
+      "pmcid": "PMC9035235",
+      "target_token_count": 38,
+      "mean_nll": {
+        "A_original": 3.484809162171778,
+        "B_original_shuffle_seed42": 3.4543336364425303,
+        "D_complete_shuffle_seed42": 3.520990375350505,
+        "E_original_rules_D_relative_order": 3.5354471754536987
+      },
+      "D_minus_E": -0.014456800103193501,
+      "D_minus_B": 0.06665673890797486,
+      "D_minus_A": 0.036181213178727134
+    },
+    {
+      "selection_order": 113,
+      "month": 12,
+      "pmcid": "PMC8851128",
+      "target_token_count": 33,
+      "mean_nll": {
+        "A_original": 2.4438048347294554,
+        "B_original_shuffle_seed42": 2.4365759101470537,
+        "D_complete_shuffle_seed42": 2.472828792542163,
+        "E_original_rules_D_relative_order": 2.3326231706887484
+      },
+      "D_minus_E": 0.14020562185341445,
+      "D_minus_B": 0.036252882395109154,
+      "D_minus_A": 0.02902395781270739
+    },
+    {
+      "selection_order": 114,
+      "month": 12,
+      "pmcid": "PMC8778936",
+      "target_token_count": 26,
+      "mean_nll": {
+        "A_original": 2.2097337656495464,
+        "B_original_shuffle_seed42": 2.6001396307435174,
+        "D_complete_shuffle_seed42": 2.3522212217660408,
+        "E_original_rules_D_relative_order": 2.6977781153646694
+      },
+      "D_minus_E": -0.3455568935986286,
+      "D_minus_B": -0.24791840897747663,
+      "D_minus_A": 0.14248745611649438
+    },
+    {
+      "selection_order": 115,
+      "month": 12,
+      "pmcid": "PMC10512214",
+      "target_token_count": 24,
+      "mean_nll": {
+        "A_original": 3.806514728500474,
+        "B_original_shuffle_seed42": 4.00292292041316,
+        "D_complete_shuffle_seed42": 3.886064858806094,
+        "E_original_rules_D_relative_order": 3.8918971375848437
+      },
+      "D_minus_E": -0.0058322787787497,
+      "D_minus_B": -0.1168580616070658,
+      "D_minus_A": 0.07955013030561986
+    },
+    {
+      "selection_order": 116,
+      "month": 12,
+      "pmcid": "PMC8716239",
+      "target_token_count": 45,
+      "mean_nll": {
+        "A_original": 2.8673207930833744,
+        "B_original_shuffle_seed42": 3.0453926902498805,
+        "D_complete_shuffle_seed42": 2.999896801058741,
+        "E_original_rules_D_relative_order": 3.0959221070304013
+      },
+      "D_minus_E": -0.09602530597166048,
+      "D_minus_B": -0.04549588919113967,
+      "D_minus_A": 0.1325760079753664
+    },
+    {
+      "selection_order": 117,
+      "month": 12,
+      "pmcid": "PMC8728564",
+      "target_token_count": 24,
+      "mean_nll": {
+        "A_original": 3.780136084766127,
+        "B_original_shuffle_seed42": 4.2543726889416575,
+        "D_complete_shuffle_seed42": 3.810431502875872,
+        "E_original_rules_D_relative_order": 4.191414681011035
+      },
+      "D_minus_E": -0.38098317813516314,
+      "D_minus_B": -0.4439411860657856,
+      "D_minus_A": 0.030295418109744787
+    },
+    {
+      "selection_order": 118,
+      "month": 12,
+      "pmcid": "PMC8820400",
+      "target_token_count": 18,
+      "mean_nll": {
+        "A_original": 2.4643554586734115,
+        "B_original_shuffle_seed42": 2.9080124623133594,
+        "D_complete_shuffle_seed42": 2.7000875389914856,
+        "E_original_rules_D_relative_order": 2.8282121565377247
+      },
+      "D_minus_E": -0.12812461754623916,
+      "D_minus_B": -0.20792492332187384,
+      "D_minus_A": 0.23573208031807402
+    },
+    {
+      "selection_order": 119,
+      "month": 12,
+      "pmcid": "PMC8765697",
+      "target_token_count": 21,
+      "mean_nll": {
+        "A_original": 3.2912744369116678,
+        "B_original_shuffle_seed42": 3.608362688861754,
+        "D_complete_shuffle_seed42": 3.3805860670774046,
+        "E_original_rules_D_relative_order": 3.7069698898107855
+      },
+      "D_minus_E": -0.32638382273338085,
+      "D_minus_B": -0.22777662178434932,
+      "D_minus_A": 0.08931163016573684
+    },
+    {
+      "selection_order": 120,
+      "month": 12,
+      "pmcid": "PMC9494700",
+      "target_token_count": 21,
+      "mean_nll": {
+        "A_original": 2.9719833279592596,
+        "B_original_shuffle_seed42": 3.4404186764052915,
+        "D_complete_shuffle_seed42": 3.1476444012095315,
+        "E_original_rules_D_relative_order": 3.2380726673270277
+      },
+      "D_minus_E": -0.09042826611749621,
+      "D_minus_B": -0.29277427519576005,
+      "D_minus_A": 0.17566107325027192
+    }
+  ]
+}

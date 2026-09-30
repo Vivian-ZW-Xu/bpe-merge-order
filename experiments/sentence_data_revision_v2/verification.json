@@ -1,0 +1,26 @@
+{
+  "status": "passed",
+  "checked_at_utc": "2026-09-30T16:52:44.289017+00:00",
+  "preflight_sha256": "769911d5f77ad51e74332dd5c054f13acbaffd9758380bb107c4e66d711a3ede",
+  "review_sha256": "0b1d9701a46f7ebacab8efabcaf04f012a9d8959028656be13b27bbad1a2e2b1",
+  "counts": {
+    "holdout_2021": {
+      "original": 120,
+      "included": 112,
+      "excluded": 8,
+      "completed_scores": 448,
+      "result_sha256": "f935576aefe6a8579a05639afed39b07260c3ff38983bf620e968bdd65cdd675"
+    },
+    "pilot_2020": {
+      "original": 20,
+      "included": 20,
+      "excluded": 0,
+      "completed_scores": 80,
+      "result_sha256": "fe3594478ac8e638cf4e084c12eaed72214244f4cec8516306971989c1aa8c89"
+    }
+  },
+  "checks": {
+    "included_papers": 132,
+    "completed_scores": 528
+  }
+}

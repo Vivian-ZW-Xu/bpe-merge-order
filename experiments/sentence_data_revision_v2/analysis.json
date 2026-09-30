@@ -1,0 +1,235 @@
+{
+  "experiment": "Data-revised exploratory Europe PMC likelihood; two separate batches; not MAUVE",
+  "created_at_utc": "2026-09-30T16:49:15.837639+00:00",
+  "preflight_sha256": "769911d5f77ad51e74332dd5c054f13acbaffd9758380bb107c4e66d711a3ede",
+  "per_paper_csv_sha256": "303c5a92e6bea95373d7ce0b356a8d738c5861f711e70ec2e80320322d4c75e6",
+  "interpretation": "Equal-paper mean of per-target-ID average NLL; shared official A target IDs; lower NLL is better. Old main results unchanged.",
+  "batches": {
+    "holdout_2021": {
+      "new": {
+        "paper_count": 112,
+        "group_mean_nll_per_target_token": {
+          "A_original": 2.6623526324343674,
+          "B_original_shuffle_seed42": 2.9066742267815386,
+          "D_complete_shuffle_seed42": 2.745694920581521,
+          "E_original_rules_D_relative_order": 2.9112107727180327
+        },
+        "comparisons": {
+          "D_minus_E": {
+            "mean_difference": -0.16551585213651207,
+            "median_difference": -0.15267142353886443,
+            "D_lower_count": 101,
+            "paper_count": 112
+          },
+          "D_minus_B": {
+            "mean_difference": -0.16097930620001777,
+            "median_difference": -0.1557128336952589,
+            "D_lower_count": 100,
+            "paper_count": 112
+          },
+          "D_minus_A": {
+            "mean_difference": 0.08334228814715318,
+            "median_difference": 0.06773437250203296,
+            "D_lower_count": 19,
+            "paper_count": 112
+          }
+        }
+      },
+      "old_same_pmcids": {
+        "paper_count": 112,
+        "group_mean_nll_per_target_token": {
+          "A_original": 2.9793568045330505,
+          "B_original_shuffle_seed42": 3.228560223961694,
+          "D_complete_shuffle_seed42": 3.054466410751563,
+          "E_original_rules_D_relative_order": 3.2312957485226907
+        },
+        "comparisons": {
+          "D_minus_E": {
+            "mean_difference": -0.17682933777112744,
+            "median_difference": -0.1500091796494487,
+            "D_lower_count": 98,
+            "paper_count": 112
+          },
+          "D_minus_B": {
+            "mean_difference": -0.17409381321013065,
+            "median_difference": -0.1529027369255458,
+            "D_lower_count": 96,
+            "paper_count": 112
+          },
+          "D_minus_A": {
+            "mean_difference": 0.07510960621851279,
+            "median_difference": 0.07314855457769354,
+            "D_lower_count": 20,
+            "paper_count": 112
+          }
+        }
+      },
+      "old_full_original_batch": {
+        "paper_count": 120,
+        "group_mean_nll_per_target_token": {
+          "A_original": 2.9964715970825098,
+          "B_original_shuffle_seed42": 3.2487486869456657,
+          "D_complete_shuffle_seed42": 3.0723119413646387,
+          "E_original_rules_D_relative_order": 3.2521520343110315
+        },
+        "comparisons": {
+          "D_minus_E": {
+            "mean_difference": -0.17984009294639283,
+            "median_difference": -0.1542980283420421,
+            "D_lower_count": 105,
+            "paper_count": 120
+          },
+          "D_minus_B": {
+            "mean_difference": -0.17643674558102657,
+            "median_difference": -0.1529027369255458,
+            "D_lower_count": 103,
+            "paper_count": 120
+          },
+          "D_minus_A": {
+            "mean_difference": 0.07584034428212913,
+            "median_difference": 0.07314855457769354,
+            "D_lower_count": 21,
+            "paper_count": 120
+          }
+        }
+      },
+      "new_old_per_paper_direction_changes": {
+        "D_minus_E": 11,
+        "D_minus_B": 10,
+        "D_minus_A": 19
+      },
+      "new_score_result_sha256": "f935576aefe6a8579a05639afed39b07260c3ff38983bf620e968bdd65cdd675",
+      "old_score_result_sha256": "4ace1fcd50a95fb958d463ac3ac46ebdde90ef953df3434caaaed22c3bf7b605",
+      "target_id_change_count": 79,
+      "prompt_id_change_count_by_condition": {
+        "A_original": 107,
+        "B_original_shuffle_seed42": 107,
+        "D_complete_shuffle_seed42": 107,
+        "E_original_rules_D_relative_order": 107
+      },
+      "scoring_seconds_sum": 273.529,
+      "sessions": [
+        {
+          "started_at_utc": "2026-09-30T16:42:31.531109+00:00",
+          "scores_remaining_at_start": 528,
+          "finished_at_utc": "2026-09-30T16:47:51.784944+00:00",
+          "model_load_seconds": 7.425,
+          "total_elapsed_seconds_so_far": 320.256
+        }
+      ]
+    },
+    "pilot_2020": {
+      "new": {
+        "paper_count": 20,
+        "group_mean_nll_per_target_token": {
+          "A_original": 3.09715640351262,
+          "B_original_shuffle_seed42": 3.328440759926413,
+          "D_complete_shuffle_seed42": 3.1652777906287097,
+          "E_original_rules_D_relative_order": 3.354930223642854
+        },
+        "comparisons": {
+          "D_minus_E": {
+            "mean_difference": -0.18965243301414403,
+            "median_difference": -0.14321864770944126,
+            "D_lower_count": 18,
+            "paper_count": 20
+          },
+          "D_minus_B": {
+            "mean_difference": -0.1631629692977027,
+            "median_difference": -0.11794561765418354,
+            "D_lower_count": 18,
+            "paper_count": 20
+          },
+          "D_minus_A": {
+            "mean_difference": 0.06812138711609055,
+            "median_difference": 0.06610113136011897,
+            "D_lower_count": 3,
+            "paper_count": 20
+          }
+        }
+      },
+      "old_same_pmcids": {
+        "paper_count": 20,
+        "group_mean_nll_per_target_token": {
+          "A_original": 3.25008713786755,
+          "B_original_shuffle_seed42": 3.523796518796639,
+          "D_complete_shuffle_seed42": 3.3236997814994766,
+          "E_original_rules_D_relative_order": 3.494452220174557
+        },
+        "comparisons": {
+          "D_minus_E": {
+            "mean_difference": -0.17075243867507997,
+            "median_difference": -0.1718259309818706,
+            "D_lower_count": 18,
+            "paper_count": 20
+          },
+          "D_minus_B": {
+            "mean_difference": -0.20009673729716196,
+            "median_difference": -0.21215829219935212,
+            "D_lower_count": 17,
+            "paper_count": 20
+          },
+          "D_minus_A": {
+            "mean_difference": 0.07361264363192692,
+            "median_difference": 0.07559527188360726,
+            "D_lower_count": 5,
+            "paper_count": 20
+          }
+        }
+      },
+      "old_full_original_batch": {
+        "paper_count": 20,
+        "group_mean_nll_per_target_token": {
+          "A_original": 3.25008713786755,
+          "B_original_shuffle_seed42": 3.523796518796639,
+          "D_complete_shuffle_seed42": 3.3236997814994766,
+          "E_original_rules_D_relative_order": 3.494452220174557
+        },
+        "comparisons": {
+          "D_minus_E": {
+            "mean_difference": -0.17075243867507997,
+            "median_difference": -0.1718259309818706,
+            "D_lower_count": 18,
+            "paper_count": 20
+          },
+          "D_minus_B": {
+            "mean_difference": -0.20009673729716196,
+            "median_difference": -0.21215829219935212,
+            "D_lower_count": 17,
+            "paper_count": 20
+          },
+          "D_minus_A": {
+            "mean_difference": 0.07361264363192692,
+            "median_difference": 0.07559527188360726,
+            "D_lower_count": 5,
+            "paper_count": 20
+          }
+        }
+      },
+      "new_old_per_paper_direction_changes": {
+        "D_minus_E": 0,
+        "D_minus_B": 1,
+        "D_minus_A": 4
+      },
+      "new_score_result_sha256": "fe3594478ac8e638cf4e084c12eaed72214244f4cec8516306971989c1aa8c89",
+      "old_score_result_sha256": "eb99bc68fca1b780b289ff4e4691ae08a0cf0d4603ed2895bfe2bd88825e2b86",
+      "target_id_change_count": 8,
+      "prompt_id_change_count_by_condition": {
+        "A_original": 17,
+        "B_original_shuffle_seed42": 17,
+        "D_complete_shuffle_seed42": 17,
+        "E_original_rules_D_relative_order": 17
+      },
+      "scoring_seconds_sum": 67.239,
+      "sessions": [
+        {
+          "started_at_utc": "2026-09-30T16:42:31.531109+00:00",
+          "scores_remaining_at_start": 528,
+          "finished_at_utc": "2026-09-30T16:49:01.987417+00:00",
+          "model_load_seconds": 7.425,
+          "total_elapsed_seconds_so_far": 390.459
+        }
+      ]
+    }
+  }
+}
